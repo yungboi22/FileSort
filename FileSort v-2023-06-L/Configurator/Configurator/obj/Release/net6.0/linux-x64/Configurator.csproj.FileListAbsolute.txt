@@ -1,0 +1,15 @@
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Configurator/Configurator/bin/Release/net6.0/linux-x64/Configurator
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Configurator/Configurator/bin/Release/net6.0/linux-x64/Configurator.deps.json
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Configurator/Configurator/bin/Release/net6.0/linux-x64/Configurator.runtimeconfig.json
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Configurator/Configurator/bin/Release/net6.0/linux-x64/Configurator.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Configurator/Configurator/bin/Release/net6.0/linux-x64/Configurator.pdb
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Configurator/Configurator/obj/Release/net6.0/linux-x64/Configurator.csproj.AssemblyReference.cache
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Configurator/Configurator/obj/Release/net6.0/linux-x64/Configurator.GeneratedMSBuildEditorConfig.editorconfig
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Configurator/Configurator/obj/Release/net6.0/linux-x64/Configurator.AssemblyInfoInputs.cache
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Configurator/Configurator/obj/Release/net6.0/linux-x64/Configurator.AssemblyInfo.cs
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Configurator/Configurator/obj/Release/net6.0/linux-x64/Configurator.csproj.CoreCompileInputs.cache
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Configurator/Configurator/obj/Release/net6.0/linux-x64/Configurator.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Configurator/Configurator/obj/Release/net6.0/linux-x64/refint/Configurator.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Configurator/Configurator/obj/Release/net6.0/linux-x64/Configurator.pdb
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Configurator/Configurator/obj/Release/net6.0/linux-x64/Configurator.genruntimeconfig.cache
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Configurator/Configurator/obj/Release/net6.0/linux-x64/ref/Configurator.dll

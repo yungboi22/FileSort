@@ -1,0 +1,36 @@
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/SortingSytem V-26-05-23
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/appsettings.Development.json
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/appsettings.json
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/SortingSytem V-26-05-23.dll
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/SortingSytem V-26-05-23.deps.json
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/SortingSytem V-26-05-23.runtimeconfig.json
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/SortingSytem V-26-05-23.pdb
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/Microsoft.Extensions.Configuration.dll
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/Microsoft.Extensions.Configuration.Binder.dll
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/Microsoft.Extensions.Configuration.CommandLine.dll
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/Microsoft.Extensions.Configuration.FileExtensions.dll
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/Microsoft.Extensions.Configuration.Json.dll
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/Microsoft.Extensions.Configuration.UserSecrets.dll
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/Microsoft.Extensions.DependencyInjection.dll
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/Microsoft.Extensions.FileProviders.Abstractions.dll
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/Microsoft.Extensions.FileProviders.Physical.dll
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/Microsoft.Extensions.FileSystemGlobbing.dll
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/Microsoft.Extensions.Hosting.dll
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/Microsoft.Extensions.Hosting.Abstractions.dll
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/Microsoft.Extensions.Hosting.Systemd.dll
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/Microsoft.Extensions.Logging.dll
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/Microsoft.Extensions.Logging.Abstractions.dll
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/Microsoft.Extensions.Logging.Configuration.dll
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/Microsoft.Extensions.Logging.Console.dll
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/Microsoft.Extensions.Logging.Debug.dll
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/Microsoft.Extensions.Logging.EventLog.dll
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/Microsoft.Extensions.Logging.EventSource.dll
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/Microsoft.Extensions.Options.dll
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/Microsoft.Extensions.Options.ConfigurationExtensions.dll
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/Microsoft.Extensions.Primitives.dll
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/System.Diagnostics.EventLog.dll
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/System.Text.Encodings.Web.dll
+/home/andi/Schreibtisch/SortingSys-Published-On-290523-18-08/System.Text.Json.dll

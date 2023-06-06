@@ -1,0 +1,5 @@
+/home/andi/Schreibtisch/publish/SortingSystem/Configurator
+/home/andi/Schreibtisch/publish/SortingSystem/Configurator.dll
+/home/andi/Schreibtisch/publish/SortingSystem/Configurator.deps.json
+/home/andi/Schreibtisch/publish/SortingSystem/Configurator.runtimeconfig.json
+/home/andi/Schreibtisch/publish/SortingSystem/Configurator.pdb

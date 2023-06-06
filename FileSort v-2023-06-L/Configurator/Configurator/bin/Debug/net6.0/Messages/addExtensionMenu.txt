@@ -1,0 +1,7 @@
+Add extension by JSON-file (solo)
+Add extension by text-file (solo)
+Add extensions by JSON-file (multiple)
+Add extensions by folder (multiple)
+Add extensions by console (multiple)
+Help
+Exit

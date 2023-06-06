@@ -1,0 +1,5 @@
+/home/andi/Schreibtisch/publish/configurator/Configurator
+/home/andi/Schreibtisch/publish/configurator/Configurator.dll
+/home/andi/Schreibtisch/publish/configurator/Configurator.deps.json
+/home/andi/Schreibtisch/publish/configurator/Configurator.runtimeconfig.json
+/home/andi/Schreibtisch/publish/configurator/Configurator.pdb
