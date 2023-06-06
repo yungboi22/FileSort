@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting Service 13_02_2023 1_0", "Sorting Service 13_02_2023 1_0.csproj", "{AABB9DC0-60DA-4F19-A647-B4A0E6C1C720}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AABB9DC0-60DA-4F19-A647-B4A0E6C1C720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AABB9DC0-60DA-4F19-A647-B4A0E6C1C720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AABB9DC0-60DA-4F19-A647-B4A0E6C1C720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AABB9DC0-60DA-4F19-A647-B4A0E6C1C720}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

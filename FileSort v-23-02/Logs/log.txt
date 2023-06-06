@@ -1,0 +1,1 @@
+[13.02.2023 23:31:27] testSort: Moved file from D:\a\Neues Textdokument.txt to D:\a\Sortiert\\Textfile\\2023\\Februar\Neues Textdokument (4).txt

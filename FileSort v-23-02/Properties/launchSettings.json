@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "Sorting_Service_13_02_2023_1_0": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

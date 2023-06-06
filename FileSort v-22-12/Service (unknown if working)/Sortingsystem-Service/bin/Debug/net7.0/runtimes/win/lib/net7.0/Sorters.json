@@ -1,0 +1,28 @@
+[
+  {
+    "Name": "testSort",
+    "ScanDir": "a",
+    "EndDir": "a\\S",
+    "Extensions": [
+      {
+        "Name": "Textfile",
+        "Endings": [
+          ".txt"
+        ]
+      },
+      {
+        "Name": "Ordner",
+        "Endings": []
+      },
+      {
+        "Name": "Rest",
+        "Endings": []
+      }
+    ],
+    "StaticDirs": [
+      "a\\S"
+    ],
+    "DeleteFromDesktop": true,
+    "SortByYearMonth": true
+  }
+]

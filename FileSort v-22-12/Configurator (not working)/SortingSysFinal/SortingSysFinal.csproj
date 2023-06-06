@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <RootNamespace>SortingSys_Final</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Json.Net" Version="1.0.33" />
+      <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="7.0.0" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    </ItemGroup>
+
+</Project>

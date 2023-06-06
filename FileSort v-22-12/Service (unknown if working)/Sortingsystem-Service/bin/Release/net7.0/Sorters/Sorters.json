@@ -1,0 +1,58 @@
+[
+  {
+    "Name": "testSort",
+    "ScanDir": "D:\\a",
+    "EndDir": "D:\\a\\Sortiert",
+    "Extensions": [
+      {
+        "Name": "Textfile",
+        "Endings": [
+          ".txt"
+        ]
+      },
+      {
+        "Name": "Ordner",
+        "Endings": []
+      },
+      {
+        "Name": "Rest",
+        "Endings": []
+      }
+    ],
+    "StaticDirs": [
+      "D:\\a\\Sortiert",
+      "D:\\a\\a",
+      "D:\\a\\b"
+    ],
+    "DeleteFromDesktop": true,
+    "SortByYearMonth": true
+  },
+  {
+    "Name": "testSort2",
+    "ScanDir": "D:\\b",
+    "EndDir": "D:\\b\\Sortiert",
+    "Extensions": [
+      {
+        "Name": "Textfile",
+        "Endings": [
+          ".txt"
+        ]
+      },
+      {
+        "Name": "Ordner",
+        "Endings": []
+      },
+      {
+        "Name": "Rest",
+        "Endings": []
+      }
+    ],
+    "StaticDirs": [
+      "D:\\b\\Sortiert",
+      "D:\\b\\a",
+      "D:\\b\\b"
+    ],
+    "DeleteFromDesktop": true,
+    "SortByYearMonth": true
+  }
+]
