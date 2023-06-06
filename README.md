@@ -11,7 +11,7 @@
 
 # Linux:
 
-*Note: It is recommended to run the Configurator as root*
+*Note: It is recommended to run the configurator as root*
 1. sudo ./Configurator
 2. If you get an error delete the "SaveLoc" - file and do point 1. again
 3. If you execute without errors you have successfully installed the sorter!
