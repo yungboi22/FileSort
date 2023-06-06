@@ -1,7 +1,7 @@
 # FileSort
 *Sortiert alle Dateien*
 
-Windows-Guide:
+# Windows:
 
 1. Platziere den All ordner auf die Festplatte (D:)
 2. Win + R 
@@ -9,7 +9,8 @@ Windows-Guide:
 4. Gehe zu "FileSort\FileSort\bin\Debug\FileSort.exe"
 5. Ziehe die .exe in den Autostart Ordner
 
-Linux:
+# Linux:
+
 *Note: It is recommended to run the Configurator as root*
 1. sudo ./Configurator
 2. If you get an error delete the "SaveLoc" - file and do point 1. again
