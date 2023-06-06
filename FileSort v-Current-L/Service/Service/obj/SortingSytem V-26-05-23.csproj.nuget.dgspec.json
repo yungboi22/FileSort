@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/andi/GitHub/FileSort/FileSort v-Current-L/Configurator/Configurator/Configurator.csproj": {}
+    "/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/SortingSytem V-26-05-23.csproj": {}
   },
   "projects": {
-    "/home/andi/GitHub/FileSort/FileSort v-Current-L/Configurator/Configurator/Configurator.csproj": {
+    "/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/SortingSytem V-26-05-23.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/andi/GitHub/FileSort/FileSort v-Current-L/Configurator/Configurator/Configurator.csproj",
-        "projectName": "Configurator",
-        "projectPath": "/home/andi/GitHub/FileSort/FileSort v-Current-L/Configurator/Configurator/Configurator.csproj",
+        "projectUniqueName": "/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/SortingSytem V-26-05-23.csproj",
+        "projectName": "SortingSytem V-26-05-23",
+        "projectPath": "/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/SortingSytem V-26-05-23.csproj",
         "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/home/andi/GitHub/FileSort/FileSort v-Current-L/Configurator/Configurator/obj/",
+        "outputPath": "/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/root/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Systemd": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

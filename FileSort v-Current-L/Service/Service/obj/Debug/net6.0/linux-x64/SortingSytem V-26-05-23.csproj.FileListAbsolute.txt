@@ -1,0 +1,141 @@
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/appsettings.Development.json
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/appsettings.json
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/SortingSytem V-26-05-23
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.deps.json
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.runtimeconfig.json
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.pdb
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Configuration.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Configuration.Binder.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Configuration.CommandLine.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Configuration.FileExtensions.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Configuration.Json.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Configuration.UserSecrets.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.DependencyInjection.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.FileProviders.Abstractions.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.FileProviders.Physical.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.FileSystemGlobbing.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Hosting.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Hosting.Abstractions.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Hosting.Systemd.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Logging.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Logging.Abstractions.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Logging.Configuration.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Logging.Console.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Logging.Debug.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Logging.EventLog.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Logging.EventSource.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Options.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Options.ConfigurationExtensions.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Primitives.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/System.Diagnostics.EventLog.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/System.Text.Encodings.Web.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/System.Text.Json.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.csproj.AssemblyReference.cache
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.GeneratedMSBuildEditorConfig.editorconfig
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.AssemblyInfoInputs.cache
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.AssemblyInfo.cs
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.csproj.CoreCompileInputs.cache
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.csproj.CopyComplete
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/refint/SortingSytem V-26-05-23.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.pdb
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.genruntimeconfig.cache
+/home/andi/RiderProjects/SortingSytem V-26-05-23/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/ref/SortingSytem V-26-05-23.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/appsettings.Development.json
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/appsettings.json
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/SortingSytem V-26-05-23
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.deps.json
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.runtimeconfig.json
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.pdb
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Configuration.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Configuration.Binder.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Configuration.CommandLine.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Configuration.FileExtensions.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Configuration.Json.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Configuration.UserSecrets.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.DependencyInjection.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.FileProviders.Abstractions.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.FileProviders.Physical.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.FileSystemGlobbing.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Hosting.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Hosting.Abstractions.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Hosting.Systemd.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Logging.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Logging.Abstractions.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Logging.Configuration.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Logging.Console.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Logging.Debug.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Logging.EventLog.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Logging.EventSource.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Options.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Options.ConfigurationExtensions.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Primitives.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/System.Diagnostics.EventLog.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/System.Text.Encodings.Web.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/System.Text.Json.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.csproj.AssemblyReference.cache
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.GeneratedMSBuildEditorConfig.editorconfig
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.AssemblyInfoInputs.cache
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.AssemblyInfo.cs
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.csproj.CoreCompileInputs.cache
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.csproj.CopyComplete
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/refint/SortingSytem V-26-05-23.dll
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.pdb
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.genruntimeconfig.cache
+/home/andi/RiderProjects/SortingSytem V-26-05-23/Service/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/ref/SortingSytem V-26-05-23.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/appsettings.Development.json
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/appsettings.json
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/SortingSytem V-26-05-23
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.deps.json
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.runtimeconfig.json
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.pdb
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Configuration.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Configuration.Binder.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Configuration.CommandLine.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Configuration.FileExtensions.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Configuration.Json.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Configuration.UserSecrets.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.DependencyInjection.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.FileProviders.Abstractions.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.FileProviders.Physical.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.FileSystemGlobbing.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Hosting.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Hosting.Abstractions.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Hosting.Systemd.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Logging.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Logging.Abstractions.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Logging.Configuration.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Logging.Console.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Logging.Debug.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Logging.EventLog.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Logging.EventSource.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Options.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Options.ConfigurationExtensions.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/Microsoft.Extensions.Primitives.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/System.Diagnostics.EventLog.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/System.Text.Encodings.Web.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/bin/Debug/net6.0/linux-x64/System.Text.Json.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.csproj.AssemblyReference.cache
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.GeneratedMSBuildEditorConfig.editorconfig
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.AssemblyInfoInputs.cache
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.AssemblyInfo.cs
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.csproj.CoreCompileInputs.cache
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.csproj.CopyComplete
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/refint/SortingSytem V-26-05-23.dll
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.pdb
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/SortingSytem V-26-05-23.genruntimeconfig.cache
+/home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/obj/Debug/net6.0/linux-x64/ref/SortingSytem V-26-05-23.dll

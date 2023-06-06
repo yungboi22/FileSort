@@ -9,5 +9,5 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = 
 build_property.IncludeAllContentForSelfExtract = 
-build_property.RootNamespace = Configurator
-build_property.ProjectDir = /home/andi/GitHub/FileSort/FileSort v-Current-L/Configurator/Configurator/
+build_property.RootNamespace = SortingSytem_V_26_05_23
+build_property.ProjectDir = /home/andi/GitHub/FileSort/FileSort v-Current-L/Service/SortingSytem V-26-05-23/

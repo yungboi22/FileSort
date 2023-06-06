@@ -22,22 +22,29 @@ namespace Configurator
 
         public static void FirstRun()
         {
+            string pth = "";
+            
             try
             {
                 Console.Write(File.ReadAllText("Messages/WelcomeMessage.txt"));
-                string pth = ConsoleQueries.DirectoryPthQuery("Where do you want to save your created sortingsystems? (Directory)");
+                pth = ConsoleQueries.DirectoryPthQuery("Where do you want to save your created sortingsystems? (Directory)");
                 pth += "/Systems.json";
-                File.WriteAllText("SaveLoc",pth);
+
+                if (!File.Exists(pth))
+                    File.Create(pth);
+                
                 Utils.excuteScript("Scripts/moveToOpt.sh");
             }
             catch (Exception e)
             {
                 Console.WriteLine(e);
+                Environment.Exit(444);
             }
             
             Console.WriteLine("Installion successed !");
-            
+            File.WriteAllText("SaveLoc",pth);
             Create();
+            
             Sorter.saveSorters(Sorter.Sorters,File.ReadAllText("SaveLoc").Trim());
             Utils.excuteScript("Scripts/start.sh");
             Environment.Exit(4);

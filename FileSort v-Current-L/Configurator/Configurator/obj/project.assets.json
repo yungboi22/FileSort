@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/andi/RiderProjects/SortingSytem V-26-05-23/Configurator/Configurator/Configurator.csproj",
+      "projectUniqueName": "/home/andi/GitHub/FileSort/FileSort v-Current-L/Configurator/Configurator/Configurator.csproj",
       "projectName": "Configurator",
-      "projectPath": "/home/andi/RiderProjects/SortingSytem V-26-05-23/Configurator/Configurator/Configurator.csproj",
+      "projectPath": "/home/andi/GitHub/FileSort/FileSort v-Current-L/Configurator/Configurator/Configurator.csproj",
       "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/home/andi/RiderProjects/SortingSytem V-26-05-23/Configurator/Configurator/obj/",
+      "outputPath": "/home/andi/GitHub/FileSort/FileSort v-Current-L/Configurator/Configurator/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/root/.nuget/NuGet/NuGet.Config"

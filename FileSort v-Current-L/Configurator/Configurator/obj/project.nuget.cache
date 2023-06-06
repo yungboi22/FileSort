@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fdNglvNEGSh8iQNjdsrJhgzQIQpyM7+v6NQ6EP9+3HDcqtNXsDOg8TiEuS5f538nmLJPfuWhEfTlR9XfDYpdmw==",
+  "dgSpecHash": "PR9XwY8D5aA2CHdG7h6FcWmTJ5UGSxmTIWvlnAiZbdNkTATtSpiKgAVMlGlbIAyZL05lGerASEOy2DVB6A+Zpg==",
   "success": true,
-  "projectFilePath": "/home/andi/RiderProjects/SortingSytem V-26-05-23/Configurator/Configurator/Configurator.csproj",
+  "projectFilePath": "/home/andi/GitHub/FileSort/FileSort v-Current-L/Configurator/Configurator/Configurator.csproj",
   "expectedPackageFiles": [
     "/root/.nuget/packages/microsoft.netcore.app.ref/6.0.8/microsoft.netcore.app.ref.6.0.8.nupkg.sha512",
     "/root/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512",
