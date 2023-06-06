@@ -1,0 +1,3 @@
+- Wenn fehler beim installieren wird "SaveLoc" erstellt -> Configurator würde
+fehlerhaft ausgeführt werden.
+
