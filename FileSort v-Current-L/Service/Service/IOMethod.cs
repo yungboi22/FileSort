@@ -63,12 +63,13 @@ namespace SortingSytem_V_26_05_23
         /// <param name="ScanPth">Path to scan for new items</param>
         /// /// <param name="StaticDirs">Items that can be ignored</param>
         /// <returns>array with new itempaths</returns>
-        public static string[] GetNewItems(string ScanPth, string[] StaticDir)
+        public static string[] GetNewItems(string ScanPth, string[] StaticDir, string EndDir)
         {
             List<string> NewItems = new List<string>();
             NewItems.AddRange(Directory.GetDirectories(ScanPth));
             NewItems.AddRange(Directory.GetFiles(ScanPth));
-
+            NewItems.Remove(EndDir);
+            
             foreach (string Dir in StaticDir)
                 NewItems.Remove(Dir);
             
@@ -128,8 +129,8 @@ namespace SortingSytem_V_26_05_23
             string NewItemName = Utils.CheckName(ItemName,GetCompItems(TmpPath));
             string destinationPath = TmpPath + OSTk + NewItemName + Path.GetExtension(ItemPth);
             
-            Directory.Move(ItemPth,destinationPath); 
-            Console.WriteLine("Moved " + ItemPth + " to " + destinationPath);
+            Console.WriteLine("Moving" + ItemPth + " to " + destinationPath);
+            Directory.Move(ItemPth, destinationPath);
         }
         
         /// <summary>

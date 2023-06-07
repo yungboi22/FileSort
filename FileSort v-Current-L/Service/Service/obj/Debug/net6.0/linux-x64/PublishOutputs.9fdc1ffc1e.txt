@@ -1,4 +1,4 @@
 /home/andi/Schreibtisch/publish/SortingSystem2Test/appsettings.Development.json
 /home/andi/Schreibtisch/publish/SortingSystem2Test/appsettings.json
-/home/andi/Schreibtisch/publish/SortingSystem2Test/SortingSytem V-26-05-23.pdb
-/home/andi/Schreibtisch/publish/SortingSystem2Test/SortingSytem V-26-05-23
+/home/andi/Schreibtisch/publish/SortingSystem2Test/Service.pdb
+/home/andi/Schreibtisch/publish/SortingSystem2Test/Service

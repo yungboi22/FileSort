@@ -87,7 +87,7 @@ namespace SortingSytem_V_26_05_23
             {
                 if (IOMethod.NewItemLoc(ScanDir,StaticDirs))
                 {
-                    string[] Items = IOMethod.GetNewItems(ScanDir,StaticDirs);
+                    string[] Items = IOMethod.GetNewItems(ScanDir,StaticDirs,EndDir);
                 
                     if(DeleteFromDesktop)
                         IOMethod.RemoveFromDesktop(Items);
