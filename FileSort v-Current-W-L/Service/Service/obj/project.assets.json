@@ -1688,11 +1688,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\64dre\\Documents\\GitHub\\FileSort\\FileSort v-Current-L\\Service\\Service\\Service.csproj",
+      "projectUniqueName": "C:\\Users\\64dre\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\Service\\Service\\Service.csproj",
       "projectName": "Service",
-      "projectPath": "C:\\Users\\64dre\\Documents\\GitHub\\FileSort\\FileSort v-Current-L\\Service\\Service\\Service.csproj",
+      "projectPath": "C:\\Users\\64dre\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\Service\\Service\\Service.csproj",
       "packagesPath": "C:\\Users\\64dre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\64dre\\Documents\\GitHub\\FileSort\\FileSort v-Current-L\\Service\\Service\\obj\\",
+      "outputPath": "C:\\Users\\64dre\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\Service\\Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\64dre\\AppData\\Roaming\\NuGet\\NuGet.Config"

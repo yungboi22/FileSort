@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\64dre\\Documents\\GitHub\\FileSort\\FileSort v-Current-L\\Configurator\\Configurator\\Configurator.csproj": {}
+    "C:\\Users\\64dre\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\Configurator\\Configurator\\Configurator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\64dre\\Documents\\GitHub\\FileSort\\FileSort v-Current-L\\Configurator\\Configurator\\Configurator.csproj": {
+    "C:\\Users\\64dre\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\Configurator\\Configurator\\Configurator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\64dre\\Documents\\GitHub\\FileSort\\FileSort v-Current-L\\Configurator\\Configurator\\Configurator.csproj",
+        "projectUniqueName": "C:\\Users\\64dre\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\Configurator\\Configurator\\Configurator.csproj",
         "projectName": "Configurator",
-        "projectPath": "C:\\Users\\64dre\\Documents\\GitHub\\FileSort\\FileSort v-Current-L\\Configurator\\Configurator\\Configurator.csproj",
+        "projectPath": "C:\\Users\\64dre\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\Configurator\\Configurator\\Configurator.csproj",
         "packagesPath": "C:\\Users\\64dre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\64dre\\Documents\\GitHub\\FileSort\\FileSort v-Current-L\\Configurator\\Configurator\\obj\\",
+        "outputPath": "C:\\Users\\64dre\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\Configurator\\Configurator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\64dre\\AppData\\Roaming\\NuGet\\NuGet.Config"

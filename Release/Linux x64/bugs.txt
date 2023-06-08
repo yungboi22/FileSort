@@ -1,4 +1,0 @@
-- Wenn fehler beim installieren wird "SaveLoc" erstellt -> Configurator würde
-fehlerhaft ausgeführt werden.
-- Es muss ein Staticdirectory ausgewählt werden, man kann nicht nichts auswählen
-

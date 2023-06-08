@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sS3yEQJg/9Uc/f4fzQWbDMhwPxwuED/prweeG7w3DZcjsM5G0Fa7ZSPfdMj/on8uxokKrZYXaLuIKJ/NZl+I8A==",
+  "dgSpecHash": "7cmoy9tT8VVJs92Z41Uvs64i7LS7PbYX4mY3fQXwsKtjhEefS3TcnSoSUN7spj4iI0DpkFGKfIhf+j8wZXvbig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\64dre\\Documents\\GitHub\\FileSort\\FileSort v-Current-L\\Service\\Service\\Service.csproj",
+  "projectFilePath": "C:\\Users\\64dre\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\Service\\Service\\Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\64dre\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\64dre\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

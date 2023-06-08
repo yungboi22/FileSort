@@ -18,6 +18,7 @@ namespace Configurator
             Sorter.Sorters = Sorter.loadSorters(sortSysPth);
             
             OpenConfigurator();
+            Console.ReadKey();
         }
 
         public static void FirstRun()
@@ -37,6 +38,7 @@ namespace Configurator
             {
                 Console.WriteLine(e.Message);
                 Console.ReadKey();
+                Environment.Exit(-1);
             }
             
             Console.WriteLine("Installion successed !");
