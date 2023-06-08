@@ -3,11 +3,13 @@
 
 # Windows:
 
-1. Platziere den All ordner auf die Festplatte (D:)
-2. Win + R 
-3. Gebe C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup ein
-4. Gehe zu "FileSort\FileSort\bin\Debug\FileSort.exe"
-5. Ziehe die .exe in den Autostart Ordner
+1. Download the release/Windows directory
+2. Go to the downloaded folder and execute the Configurator as admin
+3. If you get an error delete the "SaveLoc" - file and try again
+4. Now move the directory to the place where you want to have the system
+5. Setting up the service
+    - Open Powershell as admin
+    - Type in: *sc.exe create SortingSystem binpath= (Your install location)\Service.exe start= auto*
 
 # Linux:
 
