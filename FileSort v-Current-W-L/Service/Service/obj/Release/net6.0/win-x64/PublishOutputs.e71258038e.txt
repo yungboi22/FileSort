@@ -1,0 +1,4 @@
+C:\Users\64dre\Documents\GitHub\FileSort\Release\Windows x64\appsettings.Development.json
+C:\Users\64dre\Documents\GitHub\FileSort\Release\Windows x64\appsettings.json
+C:\Users\64dre\Documents\GitHub\FileSort\Release\Windows x64\Service.pdb
+C:\Users\64dre\Documents\GitHub\FileSort\Release\Windows x64\Service.exe

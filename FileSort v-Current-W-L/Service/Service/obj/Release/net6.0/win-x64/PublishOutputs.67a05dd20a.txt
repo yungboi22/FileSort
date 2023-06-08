@@ -1,0 +1,4 @@
+C:\Users\64dre\Documents\GitHub\FileSort\Release\Windows x64\SortingSystem\appsettings.Development.json
+C:\Users\64dre\Documents\GitHub\FileSort\Release\Windows x64\SortingSystem\appsettings.json
+C:\Users\64dre\Documents\GitHub\FileSort\Release\Windows x64\SortingSystem\Service.pdb
+C:\Users\64dre\Documents\GitHub\FileSort\Release\Windows x64\SortingSystem\Service.exe
