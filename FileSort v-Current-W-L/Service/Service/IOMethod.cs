@@ -130,8 +130,7 @@ namespace SortingSytem_V_26_05_23
             string TmpPath = EndDir + OSTk + ExtensionDir + OSTk + DatePath;
             string NewItemName = Utils.CheckName(ItemName,GetCompItems(TmpPath));
             string destinationPath = TmpPath + OSTk + NewItemName + Path.GetExtension(ItemPth);
-
-            Directory.Move("lo","äö");
+            
             
             Logger.Add("Moving " + ItemPth + " to " + destinationPath);
             Directory.Move(ItemPth, destinationPath);

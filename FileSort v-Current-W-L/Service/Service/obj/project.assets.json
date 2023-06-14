@@ -693,7 +693,7 @@
         }
       }
     },
-    "net6.0/linux-x64": {
+    "net6.0/win-x64": {
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -1280,7 +1280,8 @@
           }
         },
         "runtime": {
-          "lib/net6.0/System.Diagnostics.EventLog.dll": {
+          "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll": {},
+          "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll": {
             "related": ".xml"
           }
         },
@@ -1315,7 +1316,7 @@
           }
         },
         "runtime": {
-          "lib/net6.0/System.ServiceProcess.ServiceController.dll": {
+          "runtimes/win/lib/net6.0/System.ServiceProcess.ServiceController.dll": {
             "related": ".xml"
           }
         },
@@ -2419,7 +2420,7 @@
             "version": "[6.0.11, 6.0.11]"
           },
           {
-            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "name": "Microsoft.NETCore.App.Host.win-x64",
             "version": "[6.0.11, 6.0.11]"
           },
           {
@@ -2440,7 +2441,7 @@
       }
     },
     "runtimes": {
-      "linux-x64": {
+      "win-x64": {
         "#import": []
       }
     }
