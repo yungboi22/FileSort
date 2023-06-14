@@ -10,66 +10,56 @@ namespace Configurator
         static void Main(string[] args)
         {
             Sorter.Sorters = new List<Sorter>();
-            
-            if(!File.Exists("SaveLoc"))
-                FirstRun();
-            
-            string sortSysPth = File.ReadAllText("SaveLoc").Trim();
-            Sorter.Sorters = Sorter.loadSorters(sortSysPth);
-            
-            OpenConfigurator();
-            Console.ReadKey();
-        }
 
-        public static void FirstRun()
-        {
+            if (File.Exists("Sorters.json"))
+            {
+                string sortSysPth = File.ReadAllText("Sorters.json").Trim();
+                
+                if(sortSysPth != "")
+                    Sorter.Sorters = Sorter.loadSorters(sortSysPth); 
+            }
+
             try
             {
-                Console.Write(File.ReadAllText("Messages/WelcomeMessage.txt"));
-                string pth = ConsoleQueries.DirectoryPthQuery("Where do you want to save your created sortingsystems? (Directory)")
-                      + "/Systems.json";
-
-                if (!File.Exists(pth))
-                    File.Create(pth);
-                
-                File.WriteAllText("SaveLoc",pth);
+                OpenConfigurator();
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.Message);
-                Console.ReadKey();
-                Environment.Exit(-1);
+                Console.WriteLine(e.Message + e.StackTrace);
             }
             
-            Console.WriteLine("Installion successed !");
-            Create();
-            
-            Sorter.saveSorters(Sorter.Sorters,File.ReadAllText("SaveLoc").Trim());
-            FileSort.Start();
-            Environment.Exit(-1);
+            Console.ReadKey();
         }
-
+        
         public static void OpenConfigurator()
         {
             Console.Write(File.ReadAllText("Messages/WelcomeMessage.txt"));
             FileSort.Stop();
-            int r = ConsoleQueries.OptionSelectQuery("What do you want to do ?",
-                new[] { "Create", "Edit", "Delete", "Uninstall\n" });
-
-            switch (r)
+            bool exit = false;
+            
+            while(!exit)
             {
-                case 1:
-                    Create();
-                    break;
-                case 2:
-                    Edit();
-                    break;
-                case 3:
-                    Delete();
-                    break;
+                int r = ConsoleQueries.OptionSelectQuery("What do you want to do ?",
+                    new[] { "Create", "Edit", "Delete","Exit\n" });
+
+                switch (r)
+                {
+                    case 1:
+                        Create();
+                        break;
+                    case 2:
+                        Edit();
+                        break;
+                    case 3:
+                        Delete();
+                        break;
+                    case 4:
+                        exit = true;
+                        break;
+                }
             }
             
-            Sorter.saveSorters(Sorter.Sorters,File.ReadAllText("SaveLoc").Trim());
+            Sorter.saveSorters(Sorter.Sorters,"Sorters.json");
             FileSort.Start();
         }
         
@@ -98,6 +88,10 @@ namespace Configurator
         
         public static void Edit()
         {
+            if (Sorter.Sorters.Count == 0)
+                return;
+            
+            
             List<string> names = new List<string>();
             Sorter.Sorters.ForEach(x => names.Add(x.Name));
             int sel = ConsoleQueries.OptionSelectQuery("Select a Sorter",names.ToArray()) - 1;
@@ -154,6 +148,9 @@ namespace Configurator
 
         public static void Delete()
         {
+            if (Sorter.Sorters.Count == 0)
+                return;
+            
             List<string> names = new List<string>();
             Sorter.Sorters.ForEach(x => names.Add(x.Name));
             int sel = ConsoleQueries.OptionSelectQuery("Select the sorter you want to delete",names.ToArray()) - 1;

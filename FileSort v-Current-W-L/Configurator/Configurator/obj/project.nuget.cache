@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cPV7/KGCNGEkBNgKzGLi0SfvZmiWIjBTAhEqlDLcC3jEv/Uho3KeRrRr6EoXNFOzR46PdvgORu3w8O7cz8rrLQ==",
+  "dgSpecHash": "1WRH6PGgwhpmlLzCBLm1IrP6w7o+p2yKUr2syIExvOt5ZHOnEQUW/AE7e/oM46wcNU3drl7nkh9qVrKyuWIGIg==",
   "success": true,
   "projectFilePath": "C:\\Users\\64dre\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\Configurator\\Configurator\\Configurator.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,7 @@
     "C:\\Users\\64dre\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512",
     "C:\\Users\\64dre\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.11\\microsoft.windowsdesktop.app.ref.6.0.11.nupkg.sha512",
     "C:\\Users\\64dre\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
-    "C:\\Users\\64dre\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.11\\microsoft.netcore.app.host.win-x64.6.0.11.nupkg.sha512"
+    "C:\\Users\\64dre\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\6.0.11\\microsoft.netcore.app.host.linux-x64.6.0.11.nupkg.sha512"
   ],
   "logs": []
 }

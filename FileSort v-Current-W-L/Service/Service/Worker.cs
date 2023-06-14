@@ -13,12 +13,33 @@ public class Worker : BackgroundService
         _logger = logger;
     }
 
+    public override Task StartAsync(CancellationToken cancellationToken)
+    {
+        Logger.Add("Starting service at " + "\"" + Directory.GetCurrentDirectory() + "\"...");
+        return base.StartAsync(cancellationToken);
+    }
+
+    public override Task StopAsync(CancellationToken cancellationToken)
+    {
+        Logger.Add("Shutting down service... \n");
+        return base.StopAsync(cancellationToken);
+    }
+
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
-        while (!stoppingToken.IsCancellationRequested)
+        try
         {
-            Sorter.TickAll(Sorter.Sorters); 
-            await Task.Delay(100, stoppingToken);
+            while (!stoppingToken.IsCancellationRequested)
+            {
+                Sorter.TickAll(Sorter.Sorters); 
+                await Task.Delay(100, stoppingToken);
+            }
         }
+        catch (Exception e)
+        {
+            Logger.Add(e.Message + "\n" + e.StackTrace);
+            throw;
+        }
+        
     }
 }

@@ -54,7 +54,7 @@
         }
       }
     },
-    "net6.0/win-x64": {
+    "net6.0/linux-x64": {
       "System.Diagnostics.EventLog/7.0.0": {
         "type": "package",
         "compile": {
@@ -63,8 +63,7 @@
           }
         },
         "runtime": {
-          "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll": {},
-          "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll": {
+          "lib/net6.0/System.Diagnostics.EventLog.dll": {
             "related": ".xml"
           }
         },
@@ -83,7 +82,7 @@
           }
         },
         "runtime": {
-          "runtimes/win/lib/net6.0/System.ServiceProcess.ServiceController.dll": {
+          "lib/net6.0/System.ServiceProcess.ServiceController.dll": {
             "related": ".xml"
           }
         },
@@ -223,7 +222,7 @@
             "version": "[6.0.11, 6.0.11]"
           },
           {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
             "version": "[6.0.11, 6.0.11]"
           },
           {
@@ -244,7 +243,7 @@
       }
     },
     "runtimes": {
-      "win-x64": {
+      "linux-x64": {
         "#import": []
       }
     }

@@ -76,36 +76,29 @@ namespace SortingSytem_V_26_05_23
             string obj = JsonSerializer.Serialize(this,options);
             File.WriteAllText(Path + ".json",obj);
         }
-        
-        
+
+
         /// <summary>
         /// Called by Worker or Timer
         /// </summary>
         public void OnTimed()
         {
-            try
+            if (IOMethod.NewItemLoc(ScanDir, StaticDirs))
             {
-                if (IOMethod.NewItemLoc(ScanDir,StaticDirs))
-                {
-                    string[] Items = IOMethod.GetNewItems(ScanDir,StaticDirs,EndDir);
-                
-                    if(DeleteFromDesktop)
-                        IOMethod.RemoveFromDesktop(Items);
-                
-                    IOMethod.CreateEndFolders(Extensions,EndDir);
+                string[] Items = IOMethod.GetNewItems(ScanDir, StaticDirs, EndDir);
 
-                    for (int i = 0; i < Items.Length; i++) 
-                    {
-                        IOMethod.MoveItem(Items[i], EndDir,SortByYearMonth,this);
-                    }
+                if (DeleteFromDesktop)
+                    IOMethod.RemoveFromDesktop(Items);
+
+                IOMethod.CreateEndFolders(Extensions, EndDir);
+
+                for (int i = 0; i < Items.Length; i++)
+                {
+                    IOMethod.MoveItem(Items[i], EndDir, SortByYearMonth, this);
                 }
             }
-            catch (Exception exception)
-            {
-                Console.WriteLine(exception.Data);
-                throw;
-            }
         }
+    
         
         /*                                          Static functions                                                  */
 
@@ -123,7 +116,7 @@ namespace SortingSytem_V_26_05_23
             File.WriteAllText(Pth,obj);
         }
         
-        public static void stopSorters(List<Sorter> sorters) 
+        public static void unableSorters(List<Sorter> sorters) 
         {
             foreach (Sorter sorter in sorters)
             {
@@ -131,7 +124,7 @@ namespace SortingSytem_V_26_05_23
             }
         }
         
-        public static void startSorters(List<Sorter> sorters) 
+        public static void enableSorters(List<Sorter> sorters) 
         {
             foreach (Sorter sorter in sorters)
             {
