@@ -1,4 +1,4 @@
-﻿namespace SortingSytem_V_26_05_23;
+﻿namespace Configurator;
 
 public static class Logger
 {

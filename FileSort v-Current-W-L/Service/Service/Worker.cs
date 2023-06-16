@@ -24,7 +24,7 @@ public class Worker : BackgroundService
         Logger.Add("Shutting down service... \n");
         return base.StopAsync(cancellationToken);
     }
-
+                                                                                        
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
         try

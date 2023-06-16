@@ -9,6 +9,7 @@ namespace Configurator
     {
         static void Main(string[] args)
         {
+            Logger.Init("Logs");
             Sorter.Sorters = new List<Sorter>();
 
             if (File.Exists("Sorters.json"))
@@ -25,10 +26,8 @@ namespace Configurator
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.Message + e.StackTrace);
+                Logger.Add(e.Message + e.StackTrace);
             }
-            
-            Console.ReadKey();
         }
         
         public static void OpenConfigurator()

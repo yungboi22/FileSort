@@ -36,8 +36,7 @@ public static class FileSort
     
     public static void Stop()
     {
-        try
-        {
+    
             if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
             {
                 ServiceController sc = new ServiceController();
@@ -48,16 +47,9 @@ public static class FileSort
             }
             else
                 Utils.excuteScript("Scripts/stop.sh");
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine(e.Message);
-            Console.WriteLine("Try to run as administrator");
-            Console.ReadKey();
-            throw;
-        }
         
-        
+
+
     }
     
     public static void Restart()
