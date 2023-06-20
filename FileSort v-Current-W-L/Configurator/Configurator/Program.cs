@@ -14,12 +14,8 @@ namespace Configurator
 
             if (File.Exists("Sorters.json"))
             {
-                string sortSysPth = File.ReadAllText("Sorters.json").Trim();
-                
-                if(sortSysPth != "")
-                    Sorter.Sorters = Sorter.loadSorters(sortSysPth); 
+                Sorter.Sorters = Sorter.loadSorters("Sorters.json"); 
             }
-
             try
             {
                 OpenConfigurator();

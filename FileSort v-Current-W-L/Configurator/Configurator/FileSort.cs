@@ -17,8 +17,10 @@ public static class FileSort
             {
                 ServiceController sc = new ServiceController();
                 sc.ServiceName = "SortingSystem";
-
-                if (sc.Status == ServiceControllerStatus.Stopped)
+                
+                
+                
+                if (sc.Status == ServiceControllerStatus.Stopped && ServiceExist(sc.ServiceName))
                     sc.Start();
             }
             else
@@ -36,20 +38,16 @@ public static class FileSort
     
     public static void Stop()
     {
-    
-            if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
-            {
-                ServiceController sc = new ServiceController();
-                sc.ServiceName = "SortingSystem";
+        if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
+        {
+            ServiceController sc = new ServiceController();
+            sc.ServiceName = "SortingSystem";
 
-                if (sc.Status == ServiceControllerStatus.Running)
-                    sc.Stop();
-            }
-            else
-                Utils.excuteScript("Scripts/stop.sh");
-        
-
-
+            if (ServiceExist(sc.ServiceName) && sc.Status == ServiceControllerStatus.Running && sc.CanStop)
+                sc.Stop();
+        }
+        else
+            Utils.excuteScript("Scripts/stop.sh");
     }
     
     public static void Restart()
@@ -74,5 +72,12 @@ public static class FileSort
             throw;
         }
        
+    }
+    
+    public static bool ServiceExist(string serviceName)
+    {
+        ServiceController[] services = ServiceController.GetServices();
+        var service = services.FirstOrDefault(s => s.ServiceName == serviceName);
+        return service != null;
     }
 }

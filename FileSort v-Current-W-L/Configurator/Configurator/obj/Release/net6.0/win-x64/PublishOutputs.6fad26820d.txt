@@ -1,0 +1,2 @@
+C:\Users\Andi\Documents\GitHub\FileSort\Release\Windows x64\SortingSystem\Configurator.pdb
+C:\Users\Andi\Documents\GitHub\FileSort\Release\Windows x64\SortingSystem\Configurator.exe

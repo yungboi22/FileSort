@@ -1,0 +1,8 @@
+[20.06.2023 15:51:51 - Con7in. Chr.uraor] Cannot open 'SortingSystem' service on computer '.'.   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at Configurator.FileSort.Start() in C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\Configurator\FileSort.cs:line 23
+   at Configurator.Program.Main(String[] args) in C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\Configurator\Program.cs:line 21
+[20.06.2023 15:52:10 - Service] Starting service at "C:\Users\Andi\Documents\GitHub\FileSort\Release\Windows x64\SortingSystem"...
+[20.06.2023 15:52:28 - Service] Starting service at "C:\Users\Andi\Documents\GitHub\FileSort\Release\Windows x64\SortingSystem"...
+[20.06.2023 15:52:53 - Service] Moving C:\a\Antrag.pdf to C:\a\Trash\\Dokumente\\2023\\Mai\Antrag.pdf

@@ -1,0 +1,6 @@
+[20.06.2023 15:19:01 - Con6in. Chr.uraor] Cannot open 'SortingSystem' service on computer '.'.   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at Configurator.FileSort.Stop() in C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\Configurator\FileSort.cs:line 45
+   at Configurator.Program.OpenConfigurator() in C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\Configurator\Program.cs:line 36
+   at Configurator.Program.Main(String[] args) in C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\Configurator\Program.cs:line 25
