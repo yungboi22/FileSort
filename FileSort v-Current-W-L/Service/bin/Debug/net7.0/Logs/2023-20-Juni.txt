@@ -1,0 +1,20 @@
+[20.06.2023 19:12:52 - Service] Could not find file 'C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0\Sorters.json'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at SortingSystem.Sorter.loadSorters(String Pth) in C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 107
+   at Service.Program.Main(String[] args) in C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Program.cs:line 19
+[20.06.2023 19:13:14 - Service] Starting service at "C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0"...
+[20.06.2023 19:13:40 - Service] Moving C:\a\Neues Textdokument.txt to C:\a\trash\\Textfile\\Neues Textdokument.txt
+[20.06.2023 19:13:48 - Service] Shutting down service... 
+
+[20.06.2023 19:13:48 - Service] A task was canceled.
+   at Service.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Worker.cs:line 37
+[20.06.2023 19:35:49 - Service] Starting service at "C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0"...
+[20.06.2023 19:35:55 - Service] Shutting down service... 
+
+[20.06.2023 19:35:55 - Service] A task was canceled.
+   at Service.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Worker.cs:line 37

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "XhrqIMotZXYmA8gqbOkxNbZBSO4ULew6LzNQgUVvGAnA/q+llFPtcj5q6vwuFE6Q8N4D8SYPY2gJVyyYL/LvXA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Andi\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\Configurator\\Configurator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Andi\\.nuget\\packages\\system.diagnostics.eventlog\\7.0.0\\system.diagnostics.eventlog.7.0.0.nupkg.sha512",
+    "C:\\Users\\Andi\\.nuget\\packages\\system.serviceprocess.servicecontroller\\7.0.0\\system.serviceprocess.servicecontroller.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

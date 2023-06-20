@@ -1,0 +1,8 @@
+Name
+Scan-Directory
+End-Direcotory
+Extensions
+Static-Directory
+DeleteFromDesktop-Value
+Sorters save location
+Exit

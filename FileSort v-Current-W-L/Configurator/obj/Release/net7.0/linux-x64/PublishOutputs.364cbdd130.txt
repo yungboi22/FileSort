@@ -1,0 +1,3 @@
+C:\Users\Andi\Documents\GitHub\FileSort\Release\Linux x64\SortingSystem\Configurator.pdb
+C:\Users\Andi\Documents\GitHub\FileSort\Release\Linux x64\SortingSystem\SortingSystem.pdb
+C:\Users\Andi\Documents\GitHub\FileSort\Release\Linux x64\SortingSystem\Configurator

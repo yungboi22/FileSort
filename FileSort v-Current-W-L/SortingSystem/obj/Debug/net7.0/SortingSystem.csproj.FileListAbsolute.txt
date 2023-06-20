@@ -1,0 +1,12 @@
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\obj\Debug\net7.0\SortingSystem.csproj.AssemblyReference.cache
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\obj\Debug\net7.0\SortingSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\obj\Debug\net7.0\SortingSystem.AssemblyInfoInputs.cache
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\obj\Debug\net7.0\SortingSystem.AssemblyInfo.cs
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\obj\Debug\net7.0\SortingSystem.csproj.CoreCompileInputs.cache
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\bin\Debug\net7.0\SortingSystem.deps.json
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\bin\Debug\net7.0\SortingSystem.dll
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\bin\Debug\net7.0\SortingSystem.pdb
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\obj\Debug\net7.0\SortingSystem.dll
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\obj\Debug\net7.0\refint\SortingSystem.dll
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\obj\Debug\net7.0\SortingSystem.pdb
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\obj\Debug\net7.0\ref\SortingSystem.dll

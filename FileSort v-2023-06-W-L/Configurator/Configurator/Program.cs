@@ -1,7 +1,6 @@
-﻿
-
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.Net.Mime;
+using SortingSystem;
 
 namespace Configurator
 {
@@ -9,7 +8,7 @@ namespace Configurator
     {
         static void Main(string[] args)
         {
-            Logger.Init("Logs");
+            Logger.Init("Logs", System.Reflection.Assembly.GetExecutingAssembly().GetName().Name);
             Sorter.Sorters = new List<Sorter>();
 
             if (File.Exists("Sorters.json"))

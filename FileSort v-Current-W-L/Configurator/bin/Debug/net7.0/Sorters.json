@@ -1,0 +1,37 @@
+[
+  {
+    "Name": "testSort",
+    "ScanDir": "C:\\a",
+    "EndDir": "C:\\a\\trash",
+    "Extensions": [
+      {
+        "Name": "Audio",
+        "Endings": [
+          ".mp3",
+          ".wav"
+        ]
+      },
+      {
+        "Name": "Textfile",
+        "Endings": [
+          ".txt",
+          ".json"
+        ]
+      },
+      {
+        "Name": "Ordner",
+        "Endings": []
+      },
+      {
+        "Name": "Rest",
+        "Endings": []
+      }
+    ],
+    "StaticDirs": [
+      "C:\\a\\Trash"
+    ],
+    "DeleteFromDesktop": false,
+    "SortByYearMonth": false,
+    "LinuxOS": false
+  }
+]
