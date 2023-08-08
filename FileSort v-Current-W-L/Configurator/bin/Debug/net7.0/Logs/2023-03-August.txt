@@ -1,0 +1,3 @@
+[03.08.2023 23:31:16 - Configurator] Object reference not set to an instance of an object.   at Configurator.Program.Edit() in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\Program.cs:line 117
+   at Configurator.Program.OpenConfigurator() in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\Program.cs:line 80
+   at Configurator.Program.Main(String[] args) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\Program.cs:line 49

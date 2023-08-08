@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andi\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\Configurator\\Configurator\\Configurator.csproj": {}
+    "C:\\Users\\Andi\\Documents\\GitHub\\FileSort\\FileSort v-2023-06-W-L\\Configurator\\Configurator\\Configurator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andi\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\Configurator\\Configurator\\Configurator.csproj": {
+    "C:\\Users\\Andi\\Documents\\GitHub\\FileSort\\FileSort v-2023-06-W-L\\Configurator\\Configurator\\Configurator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andi\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\Configurator\\Configurator\\Configurator.csproj",
+        "projectUniqueName": "C:\\Users\\Andi\\Documents\\GitHub\\FileSort\\FileSort v-2023-06-W-L\\Configurator\\Configurator\\Configurator.csproj",
         "projectName": "Configurator",
-        "projectPath": "C:\\Users\\Andi\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\Configurator\\Configurator\\Configurator.csproj",
+        "projectPath": "C:\\Users\\Andi\\Documents\\GitHub\\FileSort\\FileSort v-2023-06-W-L\\Configurator\\Configurator\\Configurator.csproj",
         "packagesPath": "C:\\Users\\Andi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andi\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\Configurator\\Configurator\\obj\\",
+        "outputPath": "C:\\Users\\Andi\\Documents\\GitHub\\FileSort\\FileSort v-2023-06-W-L\\Configurator\\Configurator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Andi\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -60,11 +60,6 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win-x64": {
-          "#import": []
         }
       }
     }

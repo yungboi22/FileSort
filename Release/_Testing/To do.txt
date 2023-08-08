@@ -1,0 +1,5 @@
+Bat / Bash dateien erstellen:
+- start
+- stop
+- install
+- uninstall

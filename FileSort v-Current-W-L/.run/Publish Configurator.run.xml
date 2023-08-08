@@ -1,0 +1,7 @@
+﻿<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Publish Configurator" type="CompoundRunConfigurationType">
+    <toRun name="Publish Configurator (Linux)" type="DotNetFolderPublish" />
+    <toRun name="Publish Configurator (Windows)" type="DotNetFolderPublish" />
+    <method v="2" />
+  </configuration>
+</component>

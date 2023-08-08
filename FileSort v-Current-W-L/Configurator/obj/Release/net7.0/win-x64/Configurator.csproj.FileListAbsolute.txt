@@ -19,3 +19,7 @@ C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\obj\
 C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\obj\Release\net7.0\win-x64\Configurator.pdb
 C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\obj\Release\net7.0\win-x64\Configurator.genruntimeconfig.cache
 C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\obj\Release\net7.0\win-x64\ref\Configurator.dll
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\bin\Release\net7.0\win-x64\Messages\addExtensionMenu.txt
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\bin\Release\net7.0\win-x64\Messages\addExtensionMenuHelp.txt
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\bin\Release\net7.0\win-x64\Messages\editOptions.txt
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\bin\Release\net7.0\win-x64\Messages\WelcomeMessage.txt

@@ -1,2 +1,0 @@
-- Löscht nicht von Desktop 
-- Logs erstellen! 

@@ -141,6 +141,23 @@ namespace SortingSystem
             }
         }
         
+
+        /// <param name="Category"> equal to name of extension </param>
+        /// <param name="sorters"></param>
+        public static bool CategoryExists(string Category,List<Sorter> sorters)
+        {
+            foreach (Sorter sorter in sorters)
+            {
+                foreach (Extension sorterExtension in sorter.Extensions)
+                {
+                    if (sorterExtension.Name.ToLower() == Category)
+                        return true;
+                }
+            }
+
+            return false;
+        }
+        
     }
 }
 

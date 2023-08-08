@@ -1,0 +1,27 @@
+1. Add extension by JSON-file (solo):
+- This option loads one single extension from JSON-file
+- The file should contain a single extension-class not a extension-list! 
+- If you select this option, please input a valid filepath 
+
+2. Add extension by text-file (solo):
+- This option loads one single extension from a text-file, the file should
+contain one ending per line, the name will be extracted from filename
+- Exp:
+.txt
+.html
+...
+- If you select this option, please input a valid filepath
+
+3. Add extensions by JSON-file (multiple):
+- This option loads multiple extensions from JSON-file
+- The file should contain an list of the extension class! 
+- If you select this option, please input a valid filepath 
+
+4. Add extensions by folder (multiple):
+- This option loads multiple extensions from a directory with text-files
+- Text-file like in 2.
+- If you select this option, please input a valid directory-path
+
+5. Add extensions by console (solo/multiple):
+- If you select this option you can create an extension from console
+- You can create one extension, but also multiple

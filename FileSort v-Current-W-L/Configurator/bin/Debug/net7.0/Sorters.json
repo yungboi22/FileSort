@@ -1,8 +1,8 @@
 [
   {
-    "Name": "testSort",
-    "ScanDir": "C:\\a",
-    "EndDir": "C:\\a\\trash",
+    "Name": "test",
+    "ScanDir": "C:\\b",
+    "EndDir": "C:\\a",
     "Extensions": [
       {
         "Name": "Audio",
@@ -28,7 +28,7 @@
       }
     ],
     "StaticDirs": [
-      "C:\\a\\Trash"
+      "C:\\a\\trash"
     ],
     "DeleteFromDesktop": false,
     "SortByYearMonth": false,

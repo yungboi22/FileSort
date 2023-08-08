@@ -53,44 +53,6 @@
           }
         }
       }
-    },
-    "net6.0/win-x64": {
-      "System.Diagnostics.EventLog/7.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.Diagnostics.EventLog.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll": {},
-          "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
-        }
-      },
-      "System.ServiceProcess.ServiceController/7.0.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Diagnostics.EventLog": "7.0.0"
-        },
-        "compile": {
-          "lib/net6.0/System.ServiceProcess.ServiceController.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "runtimes/win/lib/net6.0/System.ServiceProcess.ServiceController.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
-        }
-      }
     }
   },
   "libraries": {
@@ -170,11 +132,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andi\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\Configurator\\Configurator\\Configurator.csproj",
+      "projectUniqueName": "C:\\Users\\Andi\\Documents\\GitHub\\FileSort\\FileSort v-2023-06-W-L\\Configurator\\Configurator\\Configurator.csproj",
       "projectName": "Configurator",
-      "projectPath": "C:\\Users\\Andi\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\Configurator\\Configurator\\Configurator.csproj",
+      "projectPath": "C:\\Users\\Andi\\Documents\\GitHub\\FileSort\\FileSort v-2023-06-W-L\\Configurator\\Configurator\\Configurator.csproj",
       "packagesPath": "C:\\Users\\Andi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Andi\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\Configurator\\Configurator\\obj\\",
+      "outputPath": "C:\\Users\\Andi\\Documents\\GitHub\\FileSort\\FileSort v-2023-06-W-L\\Configurator\\Configurator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Andi\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -223,11 +185,6 @@
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
-      }
-    },
-    "runtimes": {
-      "win-x64": {
-        "#import": []
       }
     }
   }

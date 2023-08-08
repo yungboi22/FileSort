@@ -8,15 +8,18 @@ namespace Configurator
     {
         static void Main(string[] args)
         {
-            Logger.Init("Logs", System.Reflection.Assembly.GetExecutingAssembly().GetName().Name);
-            Sorter.Sorters = new List<Sorter>();
-
-            if (File.Exists("Sorters.json"))
-            {
-                Sorter.Sorters = Sorter.loadSorters("Sorters.json"); 
-            }
             try
             {
+                Logger.Init("Logs", System.Reflection.Assembly.GetExecutingAssembly().GetName().Name);
+                
+                if (!Utils.IsAdministrator())
+                    throw new Exception("Please run the configurator as administrator");
+                
+                Sorter.Sorters = new List<Sorter>();
+
+                if (File.Exists("Sorters.json"))
+                    Sorter.Sorters = Sorter.loadSorters("Sorters.json");
+
                 OpenConfigurator();
             }
             catch (Exception e)
@@ -185,15 +188,18 @@ namespace Configurator
                 switch (selection)
                 {
                     case 1:
-                        string pth = ConsoleQueries.FilePthQuery("Enter the json-path:");
-                        extensions.Add(new Extension(Path.GetFileNameWithoutExtension(pth),pth));
+                        string pth = ConsoleQueries.JsonFileQuery("Enter the json-path (!q to exit):",new Extension());
+                        if(pth == "!q") break;
+                        extensions.Add(new Extension(pth));
                         break;
                     case 2:
                         pth = ConsoleQueries.FilePthQuery("Enter the textfile-path:");
                         extensions.Add(new Extension(Path.GetFileNameWithoutExtension(pth),pth));
                         break;
                     case 3:
-                        pth = ConsoleQueries.FilePthQuery("Enter the json-path:");
+                        pth = ConsoleQueries.JsonFileQuery("Enter the json-path (!q to exit):",
+                            new List<Extension>());
+                        if(pth == "!q") break;
                         extensions.AddRange(Extension.LoadListFromJson(pth));
                         break;
                     case 4:

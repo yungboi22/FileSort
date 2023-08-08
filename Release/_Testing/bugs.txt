@@ -1,0 +1,2 @@
+- scan und enddirectory können gleich sein ! 
+- Add extension nummer 4 man kann einen ordner nehmen der nicht exestiert

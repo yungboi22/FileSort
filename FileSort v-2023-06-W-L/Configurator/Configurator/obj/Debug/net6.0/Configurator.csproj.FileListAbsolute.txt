@@ -76,3 +76,11 @@ C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\Conf
 C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\Configurator\obj\Debug\net6.0\Configurator.pdb
 C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\Configurator\obj\Debug\net6.0\Configurator.genruntimeconfig.cache
 C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\Configurator\obj\Debug\net6.0\ref\Configurator.dll
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-2023-06-W-L\Configurator\Configurator\obj\Debug\net6.0\Configurator.csproj.AssemblyReference.cache
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-2023-06-W-L\Configurator\Configurator\obj\Debug\net6.0\Configurator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-2023-06-W-L\Configurator\Configurator\obj\Debug\net6.0\Configurator.AssemblyInfoInputs.cache
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-2023-06-W-L\Configurator\Configurator\obj\Debug\net6.0\Configurator.AssemblyInfo.cs
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-2023-06-W-L\Configurator\Configurator\obj\Debug\net6.0\Configurator.csproj.CoreCompileInputs.cache
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-2023-06-W-L\Configurator\Configurator\obj\Debug\net6.0\Configurator.dll
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-2023-06-W-L\Configurator\Configurator\obj\Debug\net6.0\refint\Configurator.dll
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-2023-06-W-L\Configurator\Configurator\obj\Debug\net6.0\Configurator.pdb

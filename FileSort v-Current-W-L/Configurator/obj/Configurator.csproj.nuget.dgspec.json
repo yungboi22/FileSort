@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andi\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\Configurator\\Configurator.csproj": {}
+    "C:\\Users\\64dre\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\Configurator\\Configurator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andi\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\Configurator\\Configurator.csproj": {
+    "C:\\Users\\64dre\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\Configurator\\Configurator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andi\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\Configurator\\Configurator.csproj",
+        "projectUniqueName": "C:\\Users\\64dre\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\Configurator\\Configurator.csproj",
         "projectName": "Configurator",
-        "projectPath": "C:\\Users\\Andi\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\Configurator\\Configurator.csproj",
-        "packagesPath": "C:\\Users\\Andi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andi\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\Configurator\\obj\\",
+        "projectPath": "C:\\Users\\64dre\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\Configurator\\Configurator.csproj",
+        "packagesPath": "C:\\Users\\64dre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\64dre\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\Configurator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Andi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\64dre\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Andi\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\SortingSystem\\SortingSystem.csproj": {
-                "projectPath": "C:\\Users\\Andi\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\SortingSystem\\SortingSystem.csproj"
+              "C:\\Users\\64dre\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\SortingSystem\\SortingSystem.csproj": {
+                "projectPath": "C:\\Users\\64dre\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\SortingSystem\\SortingSystem.csproj"
               }
             }
           }
@@ -63,21 +63,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Andi\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\SortingSystem\\SortingSystem.csproj": {
+    "C:\\Users\\64dre\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\SortingSystem\\SortingSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andi\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\SortingSystem\\SortingSystem.csproj",
+        "projectUniqueName": "C:\\Users\\64dre\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\SortingSystem\\SortingSystem.csproj",
         "projectName": "SortingSystem",
-        "projectPath": "C:\\Users\\Andi\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\SortingSystem\\SortingSystem.csproj",
-        "packagesPath": "C:\\Users\\Andi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andi\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\SortingSystem\\obj\\",
+        "projectPath": "C:\\Users\\64dre\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\SortingSystem\\SortingSystem.csproj",
+        "packagesPath": "C:\\Users\\64dre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\64dre\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\SortingSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Andi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\64dre\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -116,7 +116,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

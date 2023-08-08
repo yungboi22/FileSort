@@ -98,13 +98,45 @@ namespace SortingSystem
             return outp;
         }
         
-        /// <summary>
-        /// Checks which method is used to input extensions. There 3 methods:
-        /// 1: is to use the 'ExtEditMode'
-        /// 2: is to get extensions from textfile
-        /// 3: is to get extensions from a directory with textfiles
-        /// </summary>
-        /// <returns>List of extensions</returns>
+        public string ToStringShort(int count)
+        {
+            List<string> trimedEndings = Endings.Take(count).ToList();
+
+            string outp = Name + " {";
+            trimedEndings.ForEach(x => outp+= "'" + x + "'" + ",");
+            outp += "...}";
+
+            return outp;
+        }
+
+        public static List<Extension> Add(List<Extension> extensionList, Extension extensionToAdd)
+        {
+            foreach (Extension ext in extensionList)
+            {
+                if (ext.Name.ToLower() == extensionToAdd.Name.ToLower())
+                    throw new Exception(ext.Name + " already exists!");
+            }
+            
+            extensionList.Add(extensionToAdd);
+
+            return extensionList;
+        }
+
+        public static List<Extension> AddRange(List<Extension> extensionList, List<Extension> extensionListToAdd)
+        {
+            foreach (Extension ext in extensionList)
+            {
+                foreach (Extension ext2 in extensionListToAdd)
+                {
+                    if (ext.Name.ToLower() == ext2.Name.ToLower())
+                        throw new Exception(ext.Name + " already exists!");
+                }
+            }
+            
+            extensionList.AddRange(extensionListToAdd);
+
+            return extensionList;
+        }
         
         public static List<Extension> LoadListFromJson(string Pth)
         {
@@ -124,18 +156,16 @@ namespace SortingSystem
             return extensions;
         }
         
-        public static List<Extension> LoadListFromConsole()
+        public static List<Extension> LoadListFromConsole(List<Extension> extensions)
         {
-            List<Extension> extensions = new List<Extension>();
-            
             do
             {
                 try
                 {
-                    string name = ConsoleQueries.StringQuery("Name (!q to quit): ",false,false);
+                    string name = ConsoleUtils.StringQuery("Name (!q to quit): ",false);
                     if (name == "!q") {Console.Write("\n"); break;}
-                    string[] endings = ConsoleQueries.StringQuery("Endings (.xx .xz): ",false,false).Split(" ");
-                    extensions.Add(new Extension(name,endings));
+                    string[] endings = ConsoleUtils.StringQuery("Endings (.xx .xz): ",false).Split(" ");
+                    extensions = Add(extensions,new Extension(name,endings));
                     Console.WriteLine(name + "-extension was successfully added to the extensionlist! \n");
                 }
                 catch (Exception e)
@@ -167,6 +197,24 @@ namespace SortingSystem
             if(ExtNames.FirstOrDefault(ExtNames => ExtNames.Contains("Rest")) == null)
                 extensions.Add(new Extension("Rest", new string[]{}));
 
+            return extensions;
+        }
+        
+        public static List<Extension> RemoveDefaultValues(List<Extension> extensions)
+        {
+            List<string> ExtNames = new List<string>();
+            extensions.ForEach(x => ExtNames.Add(x.Name));
+
+            for (var i = 0; i < ExtNames.Count; i++)
+            {
+                if (ExtNames[i] == "Ordner" || ExtNames[i] == "Rest")
+                {
+                    ExtNames.RemoveAt(i);
+                    extensions.Remove(extensions[i]);
+                    i--;
+                }
+            }
+            
             return extensions;
         }
     }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Security.Principal;
 using System.Text.RegularExpressions;
 
 namespace SortingSystem
@@ -116,6 +117,41 @@ namespace SortingSystem
             output += "(" + NewNum+ ")" ;
 
             return output;
+        }
+        
+        public static bool IsAdministrator()
+        {
+            using (WindowsIdentity identity = WindowsIdentity.GetCurrent())
+            {
+                WindowsPrincipal principal = new WindowsPrincipal(identity);
+                return principal.IsInRole(WindowsBuiltInRole.Administrator);
+            }
+        }
+
+        public static int compSymbolToInt(char comparisonSymbol)
+        {
+            switch (comparisonSymbol)
+            {
+                case '>':
+                    return 1;
+                case '<':
+                    return -1;
+                case '=':
+                    return 0;
+                default:
+                    return -99;
+            }
+        }
+
+        public static void OpenPathInExplorer(string Pth)
+        {
+            ProcessStartInfo startInfo = new ProcessStartInfo
+            {
+                Arguments = @"E:\All",
+                FileName = "explorer.exe"
+            };
+
+            Process.Start(startInfo);
         }
         
     }

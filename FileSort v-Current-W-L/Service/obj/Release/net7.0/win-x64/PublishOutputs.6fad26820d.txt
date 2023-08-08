@@ -1,5 +1,4 @@
 C:\Users\Andi\Documents\GitHub\FileSort\Release\Windows x64\SortingSystem\appsettings.Development.json
 C:\Users\Andi\Documents\GitHub\FileSort\Release\Windows x64\SortingSystem\appsettings.json
 C:\Users\Andi\Documents\GitHub\FileSort\Release\Windows x64\SortingSystem\Service.pdb
-C:\Users\Andi\Documents\GitHub\FileSort\Release\Windows x64\SortingSystem\SortingSystem.pdb
 C:\Users\Andi\Documents\GitHub\FileSort\Release\Windows x64\SortingSystem\Service.exe

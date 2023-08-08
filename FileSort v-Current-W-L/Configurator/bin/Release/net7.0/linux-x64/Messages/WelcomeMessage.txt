@@ -1,0 +1,23 @@
+
+ 88888888b dP dP                                       dP      
+ 88        88 88                                       88      
+a88aaaa    88 88 .d8888b. .d8888b. .d8888b. 88d888b. d8888P  
+ 88        88 88 88ooood8 Y8ooooo. 88'  `88 88'  `88   88     
+ 88        88 88 88.  ...       88 88.  .88 88         88    
+ dP        dP dP `88888P' `88888P' `88888P' dP         dP      
+
+
+--------------------------------------------------------------------------------
+
+
+- Welcome to my filesort program, this application is used for sorting files 
+and directories. Right now you are running the Filesort-Configurator, it allows
+you to install, update, repair und delte sortingsystems.
+
+- Type in -h for help
+
+Developed by
+-@Andi- V: 29.05.2023
+
+
+

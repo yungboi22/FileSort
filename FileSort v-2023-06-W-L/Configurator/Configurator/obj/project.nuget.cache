@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ej/bV4wdQAr3A543FNNvmI+sWh9UrwcrhMkWVZLKq120Ew1+xijTUk6fxRnb3Jk6xrQljhFqkj/2bUa7w6aWbA==",
+  "dgSpecHash": "NZ/kuNamtzYECohbDeCMsuI1jBBje6tLzxF3XHYoCNuHMXYycgNDq8VprzhIficUdZC0kyGLFtaBzHa4VLa0ag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andi\\Documents\\GitHub\\FileSort\\FileSort v-Current-W-L\\Configurator\\Configurator\\Configurator.csproj",
+  "projectFilePath": "C:\\Users\\Andi\\Documents\\GitHub\\FileSort\\FileSort v-2023-06-W-L\\Configurator\\Configurator\\Configurator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andi\\.nuget\\packages\\system.diagnostics.eventlog\\7.0.0\\system.diagnostics.eventlog.7.0.0.nupkg.sha512",
     "C:\\Users\\Andi\\.nuget\\packages\\system.serviceprocess.servicecontroller\\7.0.0\\system.serviceprocess.servicecontroller.7.0.0.nupkg.sha512"

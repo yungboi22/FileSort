@@ -1,0 +1,30 @@
+{
+    "Name": "Bilder",
+    "Endings": [
+      ".bmp",
+      ".cpt",
+      ".dds",
+      ".dib",
+      ".dng",
+      ".dt2",
+      ".emf",
+      ".gif",
+      ".ico",
+      ".icon",
+      ".jpeg",
+      ".jpg",
+      ".pcx",
+      ".pic",
+      ".png",
+      ".psd",
+      ".psdx",
+      ".raw",
+      ".tga",
+      ".thm",
+      ".tif",
+      ".tiff",
+      ".wbmp",
+      ".wdp",
+      ".webp"
+    ]
+  }

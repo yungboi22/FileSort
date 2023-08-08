@@ -1,0 +1,7 @@
+﻿<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run All" type="CompoundRunConfigurationType">
+    <toRun name="Configurator" type="DotNetProject" />
+    <toRun name="Service" type="DotNetProject" />
+    <method v="2" />
+  </configuration>
+</component>

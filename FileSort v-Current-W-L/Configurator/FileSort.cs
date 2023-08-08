@@ -3,6 +3,7 @@ using System.ComponentModel.Design;
 using System.Runtime.InteropServices;
 using System.ServiceProcess;
 using System.Diagnostics;
+using System.Security.Principal;
 using System.Threading;
 using SortingSystem;
 
@@ -10,31 +11,18 @@ namespace Configurator;
 
 public static class FileSort
 {
-    public static void Start()
+    /*public static void Start()
     {
-        try
+        if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
         {
-            if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
-            {
-                ServiceController sc = new ServiceController();
-                sc.ServiceName = "SortingSystem";
+            ServiceController sc = new ServiceController();
+            sc.ServiceName = "SortingSystem";
                 
-                
-                
-                if (sc.Status == ServiceControllerStatus.Stopped && ServiceExist(sc.ServiceName))
-                    sc.Start();
-            }
-            else
-                Utils.excuteScript("Scripts/start.sh");
+            if (sc.Status == ServiceControllerStatus.Stopped && ServiceExist(sc.ServiceName))
+                sc.Start();
         }
-        catch (Exception e)
-        {
-            Console.WriteLine(e.Message);
-            Console.WriteLine("Try to run as administrator");
-            Console.ReadKey();
-            throw;
-        }
-        
+        else
+            Utils.excuteScript("Scripts/start.sh");
     }
     
     public static void Stop()
@@ -81,4 +69,6 @@ public static class FileSort
         var service = services.FirstOrDefault(s => s.ServiceName == serviceName);
         return service != null;
     }
+    */
+
 }

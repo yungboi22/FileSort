@@ -1,0 +1,6 @@
+﻿<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Publish Configurator (Linux)" type="DotNetFolderPublish" factoryName="Publish to folder">
+    <riderPublish configuration="Release" platform="Any CPU" produce_single_file="true" runtime="linux-x64" target_folder="$PROJECT_DIR$/../Release/Linux x64/SortingSystem" target_framework="net7.0" uuid_high="4789790168442815519" uuid_low="-6674905570459637150" />
+    <method v="2" />
+  </configuration>
+</component>

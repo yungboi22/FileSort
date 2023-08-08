@@ -13,9 +13,9 @@ namespace Service
             {
                 Directory.SetCurrentDirectory(AppDomain.CurrentDomain.BaseDirectory);
                 Logger.Init("Logs",System.Reflection.Assembly.GetExecutingAssembly().GetName().Name);
+                SortingHistory.LoadHistory();
                 IOMethod.Init();
-            
-            
+                
                 Sorter.Sorters = Sorter.loadSorters("Sorters.json");
                 Sorter.enableSorters(Sorter.Sorters);
             

@@ -1,2 +1,7 @@
 C:\Users\Andi\Documents\GitHub\FileSort\Release\Windows x64\SortingSystem\Configurator.pdb
+C:\Users\Andi\Documents\GitHub\FileSort\Release\Windows x64\SortingSystem\Messages\addExtensionMenu.txt
+C:\Users\Andi\Documents\GitHub\FileSort\Release\Windows x64\SortingSystem\Messages\addExtensionMenuHelp.txt
+C:\Users\Andi\Documents\GitHub\FileSort\Release\Windows x64\SortingSystem\Messages\editOptions.txt
+C:\Users\Andi\Documents\GitHub\FileSort\Release\Windows x64\SortingSystem\Messages\WelcomeMessage.txt
+C:\Users\Andi\Documents\GitHub\FileSort\Release\Windows x64\SortingSystem\SortingSystem.pdb
 C:\Users\Andi\Documents\GitHub\FileSort\Release\Windows x64\SortingSystem\Configurator.exe

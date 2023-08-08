@@ -1,0 +1,12 @@
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\obj\Release\net7.0\win-x64\SortingSystem.csproj.AssemblyReference.cache
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\obj\Release\net7.0\win-x64\SortingSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\obj\Release\net7.0\win-x64\SortingSystem.AssemblyInfoInputs.cache
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\obj\Release\net7.0\win-x64\SortingSystem.AssemblyInfo.cs
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\obj\Release\net7.0\win-x64\SortingSystem.csproj.CoreCompileInputs.cache
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\bin\Release\net7.0\win-x64\SortingSystem.deps.json
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\bin\Release\net7.0\win-x64\SortingSystem.dll
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\bin\Release\net7.0\win-x64\SortingSystem.pdb
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\obj\Release\net7.0\win-x64\SortingSystem.dll
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\obj\Release\net7.0\win-x64\refint\SortingSystem.dll
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\obj\Release\net7.0\win-x64\SortingSystem.pdb
+C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\obj\Release\net7.0\win-x64\ref\SortingSystem.dll

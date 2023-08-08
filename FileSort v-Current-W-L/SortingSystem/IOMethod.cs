@@ -118,22 +118,22 @@ namespace SortingSystem
         /// Moves a item from ScanDir to Enddir + DatePath if true
         /// </summary>
         /// <param name="SortByDate">When true when the file gets into a folder with the current month and year</param>
-        public static void MoveItem(string ItemPth,string EndDir,bool SortByDate, Sorter sorter)
+        public static void MoveItem(string itemPth,string endDir,bool sortByDate, Sorter sorter)
         {
-            string ItemName = Path.GetFileNameWithoutExtension(ItemPth);
-            string ExtensionDir = OSTk + GetExtensionDir(ItemPth,sorter.Extensions);
+            string itemName = Path.GetFileNameWithoutExtension(itemPth);
+            string extensionDir = GetExtensionDir(itemPth,sorter.Extensions);
             
-            string DatePath = "";
-            if(SortByDate)
-                DatePath = GetDatePath(ItemPth,EndDir + OSTk + ExtensionDir);
+            string datePath = "";
+            if(sortByDate)
+                datePath = GetDatePath(itemPth,endDir + OSTk + extensionDir);
             
-            string TmpPath = EndDir + OSTk + ExtensionDir + OSTk + DatePath;
-            string NewItemName = Utils.CheckName(ItemName,GetCompItems(TmpPath));
-            string destinationPath = TmpPath + OSTk + NewItemName + Path.GetExtension(ItemPth);
+            string tmpPath = endDir + OSTk + extensionDir + OSTk + datePath;
+            string newItemName = Utils.CheckName(itemName,GetCompItems(tmpPath));
+            string destinationPath = tmpPath + OSTk + newItemName + Path.GetExtension(itemPth);
             
-            
-            Logger.Add("Moving " + ItemPth + " to " + destinationPath);
-            Directory.Move(ItemPth, destinationPath);
+            SortingHistory.Add(itemPth,destinationPath,extensionDir);
+            Logger.Add("Moving " + itemPth + " to " + destinationPath);
+            Directory.Move(itemPth, destinationPath);
         }
         
         /// <summary>

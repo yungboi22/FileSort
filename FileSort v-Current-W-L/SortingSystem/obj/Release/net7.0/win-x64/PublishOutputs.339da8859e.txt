@@ -1,0 +1,3 @@
+C:\Users\Andi\Desktop\test\SortingSystem.dll
+C:\Users\Andi\Desktop\test\SortingSystem.deps.json
+C:\Users\Andi\Desktop\test\SortingSystem.pdb

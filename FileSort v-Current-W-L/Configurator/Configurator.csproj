@@ -8,17 +8,14 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Compile Include="..\..\FileSort v-2023-06-W-L\Configurator\Configurator\Program.cs">
-        <Link>Program.cs</Link>
-      </Compile>
+        <PackageReference Include="System.ServiceProcess.ServiceController" Version="7.0.0" />
+        <Content Include="Messages\**\*">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
     </ItemGroup>
-
+    
     <ItemGroup>
-      <PackageReference Include="System.ServiceProcess.ServiceController" Version="7.0.0" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\SortingSystem\SortingSystem.csproj" />
+        <ProjectReference Include="..\SortingSystem\SortingSystem.csproj" />
     </ItemGroup>
 
 </Project>
