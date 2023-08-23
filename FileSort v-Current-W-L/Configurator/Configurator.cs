@@ -4,6 +4,7 @@ namespace Configurator;
 
 public static class Configurator
 {
+
     public static string AddName()
     {
         string name = ConsoleUtils.StringQuery("\nHow do you want to call your new sorter?", true);
@@ -59,7 +60,7 @@ public static class Configurator
         return endDir;
     }
 
-    public static List<Extension> AddExtensionsMenu(List<Extension> extensions)
+    public static List<Extension> AddExtensions(List<Extension> extensions)
     {
         extensions = Extension.RemoveDefaultValues(extensions);
         bool exit = false;
@@ -126,6 +127,10 @@ public static class Configurator
         return Extension.AddDefaultValues(extensions);
     }
 
+    public static bool AddDeleteFromDesktop()
+    {
+        return ConsoleUtils.YesNoQuery("\nDo you want to delete items from desktop? (y/n)");
+    }
 
     public static List<Extension> DeleteMenu(List<Extension> extensions)
     {

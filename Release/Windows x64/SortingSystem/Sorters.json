@@ -1,0 +1,37 @@
+[
+  {
+    "Name": "testSort",
+    "ScanDir": "D:\\a",
+    "EndDir": "D:\\a\\M\u00FCll",
+    "Extensions": [
+      {
+        "Name": "Audio",
+        "Endings": [
+          ".mp3",
+          ".wav"
+        ]
+      },
+      {
+        "Name": "Textfile",
+        "Endings": [
+          ".txt",
+          ".json"
+        ]
+      },
+      {
+        "Name": "Ordner",
+        "Endings": []
+      },
+      {
+        "Name": "Rest",
+        "Endings": []
+      }
+    ],
+    "StaticDirs": [
+      "D:\\a\\M\u00FCll"
+    ],
+    "DeleteFromDesktop": true,
+    "SortByYearMonth": false,
+    "LinuxOS": false
+  }
+]

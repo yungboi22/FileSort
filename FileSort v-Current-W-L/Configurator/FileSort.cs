@@ -11,7 +11,7 @@ namespace Configurator;
 
 public static class FileSort
 {
-    /*public static void Start()
+    public static void Start()
     {
         if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
         {
@@ -69,6 +69,6 @@ public static class FileSort
         var service = services.FirstOrDefault(s => s.ServiceName == serviceName);
         return service != null;
     }
-    */
+ 
 
 }

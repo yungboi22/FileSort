@@ -1,0 +1,44 @@
+[23.08.2023 16:00:01 - Service] Starting service at "C:\Users\64dre\Documents\GitHub\FileSort\Release\Windows x64\SortingSystem"...
+[23.08.2023 16:00:01 - Service] Could not find file 'D:\a\Müll\Ordner\Sortiert'.
+   at System.IO.FileInfo.get_Length()
+   at SortingSystem.SortedItem..ctor(String aOriginPath, String aDestinyPath, String aCategory) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\SortingHistory.cs:line 137
+   at SortingSystem.SortingHistory.Add(String aOriginPath, String aDestinyPath, String aCategory) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\SortingHistory.cs:line 34
+   at SortingSystem.IOMethod.MoveItem(String itemPth, String endDir, Boolean sortByDate, Sorter sorter) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\IOMethod.cs:line 134
+   at SortingSystem.Sorter.OnTimed() in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 97
+   at SortingSystem.Sorter.TickAll(List`1 sorters) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 140
+   at Service.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Worker.cs:line 36
+[23.08.2023 16:00:01 - Service] Could not find file 'D:\a\Müll\Ordner\Sortiert'.
+   at System.IO.FileInfo.get_Length()
+   at SortingSystem.SortedItem..ctor(String aOriginPath, String aDestinyPath, String aCategory) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\SortingHistory.cs:line 137
+   at SortingSystem.SortingHistory.Add(String aOriginPath, String aDestinyPath, String aCategory) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\SortingHistory.cs:line 34
+   at SortingSystem.IOMethod.MoveItem(String itemPth, String endDir, Boolean sortByDate, Sorter sorter) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\IOMethod.cs:line 134
+   at SortingSystem.Sorter.OnTimed() in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 97
+   at SortingSystem.Sorter.TickAll(List`1 sorters) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 140
+   at Service.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Worker.cs:line 36
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Service.Program.Main(String[] args) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Program.cs:line 23
+[23.08.2023 16:00:51 - Service] Starting service at "C:\Users\64dre\Documents\GitHub\FileSort\Release\Windows x64\SortingSystem"...
+[23.08.2023 16:00:51 - Service] Could not find file 'D:\a\Müll\Ordner\Sortiert'.
+   at System.IO.FileInfo.get_Length()
+   at SortingSystem.SortedItem..ctor(String aOriginPath, String aDestinyPath, String aCategory) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\SortingHistory.cs:line 137
+   at SortingSystem.SortingHistory.Add(String aOriginPath, String aDestinyPath, String aCategory) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\SortingHistory.cs:line 34
+   at SortingSystem.IOMethod.MoveItem(String itemPth, String endDir, Boolean sortByDate, Sorter sorter) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\IOMethod.cs:line 134
+   at SortingSystem.Sorter.OnTimed() in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 97
+   at SortingSystem.Sorter.TickAll(List`1 sorters) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 140
+   at Service.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Worker.cs:line 36
+[23.08.2023 16:00:51 - Service] Could not find file 'D:\a\Müll\Ordner\Sortiert'.
+   at System.IO.FileInfo.get_Length()
+   at SortingSystem.SortedItem..ctor(String aOriginPath, String aDestinyPath, String aCategory) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\SortingHistory.cs:line 137
+   at SortingSystem.SortingHistory.Add(String aOriginPath, String aDestinyPath, String aCategory) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\SortingHistory.cs:line 34
+   at SortingSystem.IOMethod.MoveItem(String itemPth, String endDir, Boolean sortByDate, Sorter sorter) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\IOMethod.cs:line 134
+   at SortingSystem.Sorter.OnTimed() in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 97
+   at SortingSystem.Sorter.TickAll(List`1 sorters) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 140
+   at Service.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Worker.cs:line 36
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Service.Program.Main(String[] args) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Program.cs:line 23

@@ -1,21 +1,21 @@
 [
   {
-    "Name": "test",
-    "ScanDir": "C:\\b",
-    "EndDir": "C:\\a",
+    "Name": "tester",
+    "ScanDir": "D:\\a",
+    "EndDir": "D:\\a\\test",
     "Extensions": [
-      {
-        "Name": "Audio",
-        "Endings": [
-          ".mp3",
-          ".wav"
-        ]
-      },
       {
         "Name": "Textfile",
         "Endings": [
           ".txt",
           ".json"
+        ]
+      },
+      {
+        "Name": "Audio",
+        "Endings": [
+          ".mp3",
+          ".wav"
         ]
       },
       {
@@ -28,9 +28,10 @@
       }
     ],
     "StaticDirs": [
-      "C:\\a\\trash"
+      "D:\\a\\Sortiert",
+      "D:\\a\\test"
     ],
-    "DeleteFromDesktop": false,
+    "DeleteFromDesktop": true,
     "SortByYearMonth": false,
     "LinuxOS": false
   }

@@ -12,9 +12,18 @@ a88aaaa    88 88 .d8888b. .d8888b. .d8888b. 88d888b. d8888P
 
 - Welcome to my filesort program, this application is used for sorting files 
 and directories. Right now you are running the Filesort-Configurator, it allows
-you to install, update, repair und delte sortingsystems.
+you to install, edit, update and delete sortingsystems.
 
-- Type in -h for help
+- Useful commands:
+    Create
+    Edit
+    Update
+    Delete
+    Exit
+
+- Type in -h for more commands
+
+
 
 Developed by
 -@Andi- V: 29.05.2023

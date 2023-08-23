@@ -162,7 +162,7 @@ namespace SortingSystem
             {
                 try
                 {
-                    string name = ConsoleUtils.StringQuery("Name (!q to quit): ",false);
+                    string name = ConsoleUtils.StringQuery("Name (!q to quit): ",false).Trim();
                     if (name == "!q") {Console.Write("\n"); break;}
                     string[] endings = ConsoleUtils.StringQuery("Endings (.xx .xz): ",false).Split(" ");
                     extensions = Add(extensions,new Extension(name,endings));

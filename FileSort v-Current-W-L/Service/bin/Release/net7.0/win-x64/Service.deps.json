@@ -375,7 +375,14 @@
           }
         }
       },
-      "System.Diagnostics.DiagnosticSource/7.0.1": {},
+      "System.Diagnostics.DiagnosticSource/7.0.1": {
+        "runtime": {
+          "lib/net7.0/System.Diagnostics.DiagnosticSource.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.323.6910"
+          }
+        }
+      },
       "System.Diagnostics.EventLog/7.0.0": {
         "runtime": {
           "runtimes/win/lib/net7.0/System.Diagnostics.EventLog.Messages.dll": {

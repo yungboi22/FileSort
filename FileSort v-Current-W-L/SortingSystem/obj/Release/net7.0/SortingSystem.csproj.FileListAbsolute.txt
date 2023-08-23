@@ -10,3 +10,15 @@ C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\obj
 C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\obj\Release\net7.0\refint\SortingSystem.dll
 C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\obj\Release\net7.0\SortingSystem.pdb
 C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\obj\Release\net7.0\ref\SortingSystem.dll
+C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\bin\Release\net7.0\SortingSystem.deps.json
+C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\bin\Release\net7.0\SortingSystem.dll
+C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\bin\Release\net7.0\SortingSystem.pdb
+C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\obj\Release\net7.0\SortingSystem.csproj.AssemblyReference.cache
+C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\obj\Release\net7.0\SortingSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\obj\Release\net7.0\SortingSystem.AssemblyInfoInputs.cache
+C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\obj\Release\net7.0\SortingSystem.AssemblyInfo.cs
+C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\obj\Release\net7.0\SortingSystem.csproj.CoreCompileInputs.cache
+C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\obj\Release\net7.0\SortingSystem.dll
+C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\obj\Release\net7.0\refint\SortingSystem.dll
+C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\obj\Release\net7.0\SortingSystem.pdb
+C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\obj\Release\net7.0\ref\SortingSystem.dll

@@ -13,15 +13,9 @@ namespace Configurator
 
         static void Main(string[] args)
         {
-            
-            
-            
-            //string input = "search L -f category Audio -sort alphabet";
-            
-            
             try
             {
-                AppDomain.CurrentDomain.ProcessExit += new EventHandler(CurrentDomain_ProcessExit);
+                AppDomain.CurrentDomain.ProcessExit += CurrentDomain_ProcessExit;
                 Logger.Init("Logs", System.Reflection.Assembly.GetExecutingAssembly().GetName().Name);
                 SortingHistory.SortedItems = SortingHistory.LoadHistory();
                 
@@ -29,7 +23,7 @@ namespace Configurator
                     throw new Exception("Please run the configurator as administrator");
                 
                 Sorter.Sorters = new List<Sorter>();
-
+                
                 if (File.Exists("Sorters.json"))
                     Sorter.Sorters = Sorter.loadSorters("Sorters.json");
                 
@@ -48,7 +42,7 @@ namespace Configurator
         public static void OpenConfigurator()
         {
             Console.Write(File.ReadAllText("Messages/WelcomeMessage.txt"));
-            //FileSort.Stop();
+            FileSort.Stop();
             Exit = false;
             
             while(!Exit)
@@ -59,13 +53,14 @@ namespace Configurator
             }
             
             Sorter.saveSorters(Sorter.Sorters,"Sorters.json");
-            //FileSort.Start();
+            FileSort.Start();
         }
 
-        static void CurrentDomain_ProcessExit(object sender, EventArgs e)
+        public static void CurrentDomain_ProcessExit(object sender, EventArgs e)
         {
-            Sorter.saveSorters(Sorter.Sorters,"Sorters.json");
-            //FileSort.Start();
+            if(Sorter.Sorters != null)
+                Sorter.saveSorters(Sorter.Sorters,"Sorters.json");
+            FileSort.Start();
         }
         
  

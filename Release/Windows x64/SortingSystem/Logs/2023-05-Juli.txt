@@ -1,1 +1,0 @@
-[05.07.2023 16:41:27 - Configurator] Please run the configurator as administrator   at Configurator.Program.Main(String[] args) in C:\Users\Andi\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\Program.cs:line 16

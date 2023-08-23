@@ -131,9 +131,10 @@ namespace SortingSystem
             string newItemName = Utils.CheckName(itemName,GetCompItems(tmpPath));
             string destinationPath = tmpPath + OSTk + newItemName + Path.GetExtension(itemPth);
             
-            SortingHistory.Add(itemPth,destinationPath,extensionDir);
             Logger.Add("Moving " + itemPth + " to " + destinationPath);
             Directory.Move(itemPth, destinationPath);
+            SortingHistory.Add(itemPth,destinationPath,extensionDir);
+
         }
         
         /// <summary>

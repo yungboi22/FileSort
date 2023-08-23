@@ -1,9 +1,0 @@
-[08.08.2023 21:07:40 - Configurator] Please run the configurator as administrator   at Configurator.Program.Main(String[] args) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\Program.cs:line 37
-[08.08.2023 21:09:06 - Configurator] Please run the configurator as administrator   at Configurator.Program.Main(String[] args) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\Program.cs:line 37
-[08.08.2023 21:37:53 - Configurator] Could not find file 'D:\b.txt'.   at System.IO.FileInfo.get_Length()
-   at SortingSystem.SortedItem..ctor(String aOriginPath, String aDestinyPath, String aCategory) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\SortingHistory.cs:line 121
-   at SortingSystem.SortingHistory.Add(String aOriginPath, String aDestinyPath, String aCategory) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\SortingHistory.cs:line 34
-   at Configurator.Program.Main(String[] args) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\Program.cs:line 37
-[08.08.2023 23:13:43 - Configurator] Object reference not set to an instance of an object.   at Configurator.Commands.CommandDetermination(List`1 args) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\Commands.cs:line 22
-   at Configurator.Program.OpenConfigurator() in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\Program.cs:line 57
-   at Configurator.Program.Main(String[] args) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\Program.cs:line 39

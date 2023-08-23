@@ -1,0 +1,177 @@
+[23.08.2023 16:01:58 - Service] Starting service at "C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0"...
+[23.08.2023 16:02:04 - Service] Shutting down service... 
+
+[23.08.2023 16:02:04 - Service] A task was canceled.
+   at Service.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Worker.cs:line 37
+[23.08.2023 16:02:18 - Service] Starting service at "C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0"...
+[23.08.2023 16:03:11 - Service] Could not find file 'C:\a\trash\Textfile\Neues Textdokument.txt'.
+   at System.IO.FileInfo.get_Length()
+   at SortingSystem.SortedItem..ctor(String aOriginPath, String aDestinyPath, String aCategory) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\SortingHistory.cs:line 137
+   at SortingSystem.SortingHistory.Add(String aOriginPath, String aDestinyPath, String aCategory) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\SortingHistory.cs:line 34
+   at SortingSystem.IOMethod.MoveItem(String itemPth, String endDir, Boolean sortByDate, Sorter sorter) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\IOMethod.cs:line 134
+   at SortingSystem.Sorter.OnTimed() in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 97
+   at SortingSystem.Sorter.TickAll(List`1 sorters) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 140
+   at Service.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Worker.cs:line 36
+[23.08.2023 16:03:11 - Service] Shutting down service... 
+
+[23.08.2023 16:06:33 - Service] Starting service at "C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0"...
+[23.08.2023 16:08:00 - Service] Could not find file 'C:\a\trash\Textfile\Neues Textdokument.txt'.
+   at System.IO.FileInfo.get_Length()
+   at SortingSystem.SortedItem..ctor(String aOriginPath, String aDestinyPath, String aCategory) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\SortingHistory.cs:line 137
+   at SortingSystem.SortingHistory.Add(String aOriginPath, String aDestinyPath, String aCategory) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\SortingHistory.cs:line 34
+   at SortingSystem.IOMethod.MoveItem(String itemPth, String endDir, Boolean sortByDate, Sorter sorter) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\IOMethod.cs:line 134
+   at SortingSystem.Sorter.OnTimed() in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 97
+   at SortingSystem.Sorter.TickAll(List`1 sorters) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 140
+   at Service.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Worker.cs:line 36
+[23.08.2023 16:08:09 - Service] Starting service at "C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0"...
+[23.08.2023 16:10:49 - Service] Starting service at "C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0"...
+[23.08.2023 16:11:30 - Service] Starting service at "C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0"...
+[23.08.2023 16:11:55 - Service] Could not find file 'C:\a\trash\Textfile\Neues Textdokument.txt'.
+   at System.IO.FileInfo.get_Length()
+   at SortingSystem.SortedItem..ctor(String aOriginPath, String aDestinyPath, String aCategory) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\SortingHistory.cs:line 137
+   at SortingSystem.SortingHistory.Add(String aOriginPath, String aDestinyPath, String aCategory) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\SortingHistory.cs:line 34
+   at SortingSystem.IOMethod.MoveItem(String itemPth, String endDir, Boolean sortByDate, Sorter sorter) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\IOMethod.cs:line 134
+   at SortingSystem.Sorter.OnTimed() in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 97
+   at SortingSystem.Sorter.TickAll(List`1 sorters) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 140
+   at Service.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Worker.cs:line 36
+[23.08.2023 16:12:37 - Service] Starting service at "C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0"...
+[23.08.2023 16:13:38 - Service] Starting service at "C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0"...
+[23.08.2023 16:13:38 - Service] Moving C:\a\Neues Textdokument.txt to C:\a\trash\Textfile\\Neues Textdokument.txt
+[23.08.2023 16:13:56 - Service] Object reference not set to an instance of an object.
+   at SortingSystem.SortingHistory.Add(String aOriginPath, String aDestinyPath, String aCategory) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\SortingHistory.cs:line 35
+   at SortingSystem.IOMethod.MoveItem(String itemPth, String endDir, Boolean sortByDate, Sorter sorter) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\IOMethod.cs:line 136
+   at SortingSystem.Sorter.OnTimed() in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 97
+   at SortingSystem.Sorter.TickAll(List`1 sorters) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 140
+   at Service.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Worker.cs:line 36
+[23.08.2023 16:13:58 - Service] Object reference not set to an instance of an object.
+   at SortingSystem.SortingHistory.Add(String aOriginPath, String aDestinyPath, String aCategory) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\SortingHistory.cs:line 35
+   at SortingSystem.IOMethod.MoveItem(String itemPth, String endDir, Boolean sortByDate, Sorter sorter) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\IOMethod.cs:line 136
+   at SortingSystem.Sorter.OnTimed() in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 97
+   at SortingSystem.Sorter.TickAll(List`1 sorters) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 140
+   at Service.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Worker.cs:line 36
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Service.Program.Main(String[] args) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Program.cs:line 23
+[23.08.2023 16:14:24 - Service] Starting service at "C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0"...
+[23.08.2023 16:14:39 - Service] Moving C:\a\Neues Textdokument.txt to C:\a\trash\Textfile\\Neues Textdokument (2).txt
+[23.08.2023 16:15:54 - Service] Starting service at "C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0"...
+[23.08.2023 16:15:58 - Service] Moving C:\a\Neues Textdokument.txt to C:\a\trash\Textfile\\Neues Textdokument (3).txt
+[23.08.2023 16:18:16 - Service] Starting service at "C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0"...
+[23.08.2023 16:18:17 - Service] Moving C:\a\Neues Textdokument.txt to C:\a\trash\Textfile\\Neues Textdokument (4).txt
+[23.08.2023 16:18:34 - Service] Starting service at "C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0"...
+[23.08.2023 16:18:46 - Service] Moving C:\a\Neues Textdokument.txt to C:\a\trash\Textfile\\Neues Textdokument (5).txt
+[23.08.2023 16:18:46 - Service] Object reference not set to an instance of an object.
+   at SortingSystem.SortingHistory.Add(String aOriginPath, String aDestinyPath, String aCategory) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\SortingHistory.cs:line 37
+   at SortingSystem.IOMethod.MoveItem(String itemPth, String endDir, Boolean sortByDate, Sorter sorter) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\IOMethod.cs:line 136
+   at SortingSystem.Sorter.OnTimed() in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 97
+   at SortingSystem.Sorter.TickAll(List`1 sorters) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 140
+   at Service.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Worker.cs:line 36
+[23.08.2023 16:18:46 - Service] Shutting down service... 
+
+[23.08.2023 16:19:02 - Service] Starting service at "C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0"...
+[23.08.2023 16:19:05 - Service] Moving C:\a\Neues Textdokument.txt to C:\a\trash\Textfile\\Neues Textdokument (6).txt
+[23.08.2023 16:19:05 - Service] Object reference not set to an instance of an object.
+   at SortingSystem.SortingHistory.Add(String aOriginPath, String aDestinyPath, String aCategory) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\SortingHistory.cs:line 37
+   at SortingSystem.IOMethod.MoveItem(String itemPth, String endDir, Boolean sortByDate, Sorter sorter) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\IOMethod.cs:line 136
+   at SortingSystem.Sorter.OnTimed() in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 97
+   at SortingSystem.Sorter.TickAll(List`1 sorters) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 140
+   at Service.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Worker.cs:line 36
+[23.08.2023 16:19:05 - Service] Shutting down service... 
+
+[23.08.2023 16:19:26 - Service] Starting service at "C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0"...
+[23.08.2023 16:19:28 - Service] Moving C:\a\Neues Textdokument.txt to C:\a\trash\Textfile\\Neues Textdokument (7).txt
+[23.08.2023 16:20:45 - Service] Object reference not set to an instance of an object.
+   at SortingSystem.SortingHistory.Add(String aOriginPath, String aDestinyPath, String aCategory) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\SortingHistory.cs:line 37
+   at SortingSystem.IOMethod.MoveItem(String itemPth, String endDir, Boolean sortByDate, Sorter sorter) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\IOMethod.cs:line 136
+   at SortingSystem.Sorter.OnTimed() in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 97
+   at SortingSystem.Sorter.TickAll(List`1 sorters) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 140
+   at Service.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Worker.cs:line 36
+[23.08.2023 16:20:45 - Service] Shutting down service... 
+
+[23.08.2023 16:23:19 - Service] Starting service at "C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0"...
+[23.08.2023 16:23:23 - Service] Moving C:\a\Neues Textdokument.txt to C:\a\trash\Textfile\\Neues Textdokument (8).txt
+[23.08.2023 16:23:29 - Service] Moving C:\a\Neues Textdokument.txt to C:\a\trash\Textfile\\Neues Textdokument (9).txt
+[23.08.2023 16:23:34 - Service] Moving C:\a\Neuer Ordner to C:\a\trash\Ordner\\Neuer Ordner
+[23.08.2023 16:23:34 - Service] Could not find file 'C:\a\trash\Ordner\Neuer Ordner'.
+   at System.IO.FileInfo.get_Length()
+   at SortingSystem.SortedItem..ctor(String aOriginPath, String aDestinyPath, String aCategory) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\SortingHistory.cs:line 137
+   at SortingSystem.SortingHistory.Add(String aOriginPath, String aDestinyPath, String aCategory) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\SortingHistory.cs:line 34
+   at SortingSystem.IOMethod.MoveItem(String itemPth, String endDir, Boolean sortByDate, Sorter sorter) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\IOMethod.cs:line 136
+   at SortingSystem.Sorter.OnTimed() in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 97
+   at SortingSystem.Sorter.TickAll(List`1 sorters) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 140
+   at Service.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Worker.cs:line 36
+[23.08.2023 16:23:34 - Service] Shutting down service... 
+
+[23.08.2023 16:23:44 - Service] Starting service at "C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0"...
+[23.08.2023 16:23:46 - Service] Moving C:\a\Microsoft Word-Dokument (neu).docx to C:\a\trash\Rest\\Microsoft Word-Dokument (neu).docx
+[23.08.2023 16:23:50 - Service] Moving C:\a\Microsoft Excel-Arbeitsblatt (neu).xlsx to C:\a\trash\Rest\\Microsoft Excel-Arbeitsblatt (neu).xlsx
+[23.08.2023 16:23:50 - Service] The process cannot access the file because it is being used by another process.
+   at System.IO.FileSystem.MoveDirectory(String sourceFullPath, String destFullPath, Boolean isCaseSensitiveRename)
+   at System.IO.FileSystem.MoveDirectory(String sourceFullPath, String destFullPath)
+   at SortingSystem.IOMethod.MoveItem(String itemPth, String endDir, Boolean sortByDate, Sorter sorter) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\IOMethod.cs:line 135
+   at SortingSystem.Sorter.OnTimed() in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 97
+   at SortingSystem.Sorter.TickAll(List`1 sorters) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 140
+   at Service.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Worker.cs:line 36
+[23.08.2023 16:23:50 - Service] Shutting down service... 
+
+[23.08.2023 16:24:06 - Service] Starting service at "C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0"...
+[23.08.2023 16:24:06 - Service] Moving C:\a\Microsoft Excel-Arbeitsblatt (neu).xlsx to C:\a\trash\Rest\\Microsoft Excel-Arbeitsblatt (neu).xlsx
+[23.08.2023 16:24:26 - Service] Moving C:\a\Neues RTF-Dokument.rtf to C:\a\trash\Rest\\Neues RTF-Dokument.rtf
+[23.08.2023 16:24:31 - Service] Moving C:\a\Neuer Ordner to C:\a\trash\Ordner\\Neuer Ordner (2)
+[23.08.2023 16:24:31 - Service] Could not find file 'C:\a\trash\Ordner\Neuer Ordner (2)'.
+   at System.IO.FileInfo.get_Length()
+   at SortingSystem.SortedItem..ctor(String aOriginPath, String aDestinyPath, String aCategory) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\SortingHistory.cs:line 137
+   at SortingSystem.SortingHistory.Add(String aOriginPath, String aDestinyPath, String aCategory) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\SortingHistory.cs:line 34
+   at SortingSystem.IOMethod.MoveItem(String itemPth, String endDir, Boolean sortByDate, Sorter sorter) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\IOMethod.cs:line 136
+   at SortingSystem.Sorter.OnTimed() in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 97
+   at SortingSystem.Sorter.TickAll(List`1 sorters) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 140
+   at Service.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Worker.cs:line 36
+[23.08.2023 16:24:31 - Service] Shutting down service... 
+
+[23.08.2023 16:26:56 - Service] Starting service at "C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0"...
+[23.08.2023 16:27:02 - Service] Moving C:\a\Neuer Ordner to C:\a\trash\Ordner\\Neuer Ordner (3)
+[23.08.2023 16:30:02 - Service] Starting service at "C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0"...
+[23.08.2023 16:30:05 - Service] Moving C:\a\Neuer Ordner to C:\a\trash\Ordner\\Neuer Ordner (4)
+[23.08.2023 16:30:05 - Service] The argument type, 'Microsoft.VisualBasic.FileAttribute', is not the same as the enum type 'System.IO.FileAttributes'.
+   at System.Enum.HasFlag(Enum flag)
+   at SortingSystem.SortedItem..ctor(String aOriginPath, String aDestinyPath, String aCategory) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\SortingHistory.cs:line 138
+   at SortingSystem.SortingHistory.Add(String aOriginPath, String aDestinyPath, String aCategory) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\SortingHistory.cs:line 34
+   at SortingSystem.IOMethod.MoveItem(String itemPth, String endDir, Boolean sortByDate, Sorter sorter) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\IOMethod.cs:line 136
+   at SortingSystem.Sorter.OnTimed() in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 97
+   at SortingSystem.Sorter.TickAll(List`1 sorters) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 140
+   at Service.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Worker.cs:line 36
+[23.08.2023 16:30:05 - Service] Shutting down service... 
+
+[23.08.2023 16:31:00 - Service] Starting service at "C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0"...
+[23.08.2023 16:31:02 - Service] Moving C:\a\Neuer Ordner to C:\a\trash\Ordner\\Neuer Ordner (5)
+[23.08.2023 16:31:05 - Service] Moving C:\a\Neuer Ordner to C:\a\trash\Ordner\\Neuer Ordner (6)
+[23.08.2023 16:31:19 - Service] Shutting down service... 
+
+[23.08.2023 16:31:19 - Service] A task was canceled.
+   at Service.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Worker.cs:line 37
+[23.08.2023 16:31:23 - Service] Starting service at "C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0"...
+[23.08.2023 16:31:26 - Service] Moving C:\a\Neues Textdokument.txt to C:\a\trash\Textfile\\Neues Textdokument (10).txt
+[23.08.2023 16:31:53 - Service] Shutting down service... 
+
+[23.08.2023 16:31:53 - Service] A task was canceled.
+   at Service.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Worker.cs:line 37
+[23.08.2023 16:31:58 - Service] Starting service at "C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0"...
+[23.08.2023 16:32:01 - Service] Moving C:\a\Neues RTF-Dokument.rtf to C:\a\trash\Rest\\Neues RTF-Dokument (2).rtf
+[23.08.2023 16:32:04 - Service] Moving C:\a\Neues Textdokument.txt to C:\a\trash\Textfile\\Neues Textdokument (11).txt
+[23.08.2023 16:32:07 - Service] Moving C:\a\Neuer Ordner to C:\a\trash\Ordner\\Neuer Ordner (7)
+[23.08.2023 16:32:10 - Service] Moving C:\a\Microsoft Excel-Arbeitsblatt (neu).xlsx to C:\a\trash\Rest\\Microsoft Excel-Arbeitsblatt (neu) (2).xlsx
+[23.08.2023 16:32:12 - Service] Moving C:\a\Neues Textdokument.txt to C:\a\trash\Textfile\\Neues Textdokument (12).txt
+[23.08.2023 16:32:14 - Service] Moving C:\a\Neuer Ordner to C:\a\trash\Ordner\\Neuer Ordner (8)
+[23.08.2023 16:32:20 - Service] Shutting down service... 
+
+[23.08.2023 16:32:20 - Service] A task was canceled.
+   at Service.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Worker.cs:line 37
+[23.08.2023 16:32:25 - Service] Starting service at "C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0"...
+[23.08.2023 16:32:27 - Service] Moving C:\a\Neues Textdokument.txt to C:\a\trash\Textfile\\Neues Textdokument (13).txt
+[23.08.2023 16:33:43 - Service] Moving C:\a\Neuer Ordner to C:\a\trash\Ordner\\Neuer Ordner (9)
+[23.08.2023 16:34:18 - Service] Shutting down service... 
+
+[23.08.2023 16:34:18 - Service] A task was canceled.
+   at Service.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Worker.cs:line 37

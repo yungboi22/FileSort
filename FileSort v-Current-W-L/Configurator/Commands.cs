@@ -1,17 +1,20 @@
-﻿using System.Reflection;
+﻿using System.Diagnostics;
+using System.Net;
+using System.Reflection;
 using SortingSystem;
 
 namespace Configurator;
 
 public static class Commands
 {
+    //Add all commands of this application into this and help describtion into "Messages\help.txt"
     public static void CommandDetermination(List<string> args)
     {
         string command = args[0];
         args.RemoveAt(0);
         string value = "";
-        args.ForEach(x => value += x);
-        
+        args.ForEach(x => value += " " + x);
+
         try
         {
             MethodInfo theMethod = typeof(Commands).GetMethod(command,
@@ -19,67 +22,65 @@ public static class Commands
             object[] parameters = new object[] { };
 
             if (args.Count > 0)
-                parameters = new object[] { value.Split("-") };
+                parameters = new object[] { value.Split("-").ToList() };
 
             theMethod.Invoke(null, parameters);
         }
         catch (NullReferenceException nullReferenceException)
         {
-            Console.WriteLine("Unknown command or command arguments '" + command + value + "'" + ", type '-h' for help" );   
+            Console.WriteLine("Unknown command or command arguments '" + command + value + "'" +
+                              ", type '-h' for help");
+        }
+        catch (TargetInvocationException e)
+        {
+            Console.WriteLine("This command does not allow this syntax!");
         }
         catch (Exception e)
         {
-            Console.WriteLine(e);
+            Console.WriteLine(e.Message);
         }
     }
     
-    public static void Search(string[] commandArgs) 
+    public static void Search(List<string> commandArgs)
     {
+        List<SortedItem> itemsToSearch = SortingHistory.SortedItems;
         string searchValue = commandArgs[0];
+        commandArgs.RemoveAt(0);
         
-        for (int i = 1; i < commandArgs.Length; i++)
+        foreach (string commandArg in commandArgs)
         {
-            
-            
-            
-            if (commandArgs[i].StartsWith("filter") || commandArgs[i].StartsWith("f"))
-            {
-                commandArgs[i] = commandArgs[i].Replace("filter", "").Replace("f", "").Trim();
-                string[] values = commandArgs[i].Split(" ");
-                Enum.TryParse(values[0],true, out FilterBy filterBy);
-                
-                if (Sorter.CategoryExists(values[1],Sorter.Sorters))
-                {
-                    int neededCompValue = -99;
-                    string filterValue = values[1];
-                    SortingHistory.SortedItems = SortingHistory.FilterListBy(SortingHistory.SortedItems, filterBy, neededCompValue, filterValue); 
-                }
-                else
-                {
-                    int neededCompValue = Utils.compSymbolToInt(values[1][0]);
-                    string filterValue = values[1].Substring(1);
-                    SortingHistory.SortedItems = SortingHistory.FilterListBy(SortingHistory.SortedItems, filterBy, neededCompValue, filterValue); 
-                }
-            }
-            else if (commandArgs[i].StartsWith("sort") || commandArgs[i].StartsWith("s"))
-            {
-                commandArgs[i] = commandArgs[i].Replace("sort", "").Replace("s", "").Trim();
-                string[] values = commandArgs[i].Split(" ");
+            string[] values = commandArg.ToLower().Split(" ");
+            MethodInfo theMethod = typeof(SortingHistory).GetMethod(values[0],
+                BindingFlags.Public | BindingFlags.Static | BindingFlags.IgnoreCase);
+            object[] parameters;
 
-                bool reverse = values[0][0] == '!';
-                Enum.TryParse(values[0].Replace('!',' '),true, out SortBy sortBy);
-                SortingHistory.SortedItems = SortingHistory.SortListBy(SortingHistory.SortedItems, sortBy, reverse);
-            }
+            if (Enum.TryParse(values[1].Replace("!", ""), true, out SortBy outSortBy) && theMethod.Name.FirstCharToUpper() == "Sort")
+                parameters = new object[] { itemsToSearch, outSortBy, values[1][0] };
+            else if (Enum.TryParse(values[1], true, out FilterBy outFilterBy) && theMethod.Name.FirstCharToUpper() == "Filter")
+                parameters = new object[] { itemsToSearch, outFilterBy, values[2] };
             else
-            {
-                throw new Exception("Wrong input format, type -h for help");
-            }
-            
+                throw new Exception("Wrong input format, type in the command 'help' to see all commands");
+
+            theMethod.Invoke(itemsToSearch, parameters); 
         }
-        
-        List<SortedItem> itemsToSearch = SortingHistory.SearchListBy(SortingHistory.SortedItems,searchValue);
+
+        itemsToSearch = SortingHistory.SearchListBy(SortingHistory.SortedItems,searchValue);
         SortingHistory.ToTable(itemsToSearch);
     }
+
+    public static void Open(List<string> commandArgs)
+    {
+        if(!int.TryParse(commandArgs[0], out int sel) || commandArgs.Count > 2)
+            throw new Exception("Wrong command argument or arguments");
+        
+        if(commandArgs.Count > 1 && commandArgs[1].ToLower() == "e")
+            Process.Start(Environment.GetEnvironmentVariable("WINDIR") +
+                          @"\explorer.exe",Path.GetDirectoryName(SortingHistory.LastSearchResult[sel].CurrentPath));
+        else
+            Process.Start( Environment.GetEnvironmentVariable("WINDIR") +
+                           @"\explorer.exe", SortingHistory.LastSearchResult[sel].CurrentPath);
+    }
+    
 
     public static void Create()
     {
@@ -90,7 +91,7 @@ public static class Commands
             string name = Configurator.AddName();
             string scanDir = Configurator.AddScanDir();
             string endDir = Configurator.AddEndDir();
-            List<Extension> exts = Configurator.AddExtensionsMenu(new List<Extension>());
+            List<Extension> exts = Configurator.AddExtensions(new List<Extension>());
             string[] staticDirs = Configurator.AddStaticDirs(scanDir);
             bool deleteFromDesktop = ConsoleUtils.YesNoQuery("\nDo you want to delete your items from desktop? (Y/N)");
             bool sortByYearMonth = ConsoleUtils.YesNoQuery("\nDo you want to sort by year and month? (Y/N)" );
@@ -132,7 +133,7 @@ public static class Commands
                     Sorter.Sorters[sel].EndDir = Configurator.AddEndDir();
                     break;
                 case 4:
-                    Sorter.Sorters[sel].Extensions = Configurator.AddExtensionsMenu(Sorter.Sorters[sel].Extensions);
+                    Sorter.Sorters[sel].Extensions = Configurator.AddExtensions(Sorter.Sorters[sel].Extensions);
                     break;
                 case 5:
                     Sorter.Sorters[sel].StaticDirs = Configurator.AddStaticDirs(Sorter.Sorters[sel].ScanDir);
@@ -147,11 +148,6 @@ public static class Commands
         } while (!exit);
     }
     
-    public static void Update()
-    {
-        
-    }
-
     public static void Delete()
     {
         Console.Write(File.ReadAllText(@"Messages\deleteFont.txt"));
@@ -168,14 +164,13 @@ public static class Commands
 
     public static void Help()
     {
-        Type thisType = typeof(Commands);
-        MethodInfo[] theMethods = thisType.GetMethods();
-        
-        foreach (MethodInfo methodInfo in theMethods)
-        {
-            Console.WriteLine(methodInfo.Name );
-            methodInfo.GetParameters().ToList().ForEach(x => Console.Write(x.Name));
-        }
+        Console.Clear();
+        Console.Write(File.ReadAllText(@"Messages\help.txt") + "\n\n\n\n");
+    }
+
+    public static void Exit()
+    {
+        Environment.Exit(0);
     }
 
 

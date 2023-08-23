@@ -3,6 +3,6 @@ Add extension by text-file (solo)
 Add extensions by JSON-file (multiple)
 Add extensions by folder (multiple)
 Add extensions by console (multiple)
-Show added extensions
+Show added extensions / Delete added extensions 
 Help
 Exit

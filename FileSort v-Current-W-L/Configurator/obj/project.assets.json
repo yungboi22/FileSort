@@ -63,6 +63,54 @@
           "bin/placeholder/SortingSystem.dll": {}
         }
       }
+    },
+    "net7.0/win-x64": {
+      "System.Diagnostics.EventLog/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/System.Diagnostics.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "runtimes/win/lib/net7.0/System.Diagnostics.EventLog.Messages.dll": {},
+          "runtimes/win/lib/net7.0/System.Diagnostics.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.ServiceProcess.ServiceController/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.EventLog": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.ServiceProcess.ServiceController.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "runtimes/win/lib/net7.0/System.ServiceProcess.ServiceController.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "SortingSystem/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/SortingSystem.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SortingSystem.dll": {}
+        }
+      }
     }
   },
   "libraries": {
@@ -205,6 +253,11 @@
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win-x64": {
+        "#import": []
       }
     }
   }

@@ -200,24 +200,24 @@ namespace SortingSystem
         public void Print()
         {
             PrintLine();
-            PrintRow(rows[0].ToArray());    //Head
+            PrintHead(rows.Count.ToString().Length,rows[0].ToArray());    //Head
             PrintLine();
             
             for (int i = 1; i < rows.Count; i++)
-                PrintRow(rows[i].ToArray());
+                PrintRow(rows.Count.ToString().Length, i-1,rows[i].ToArray());
             
             PrintLine();
         }
 
         private void PrintLine()
         {
-            Console.WriteLine(new string('-',tableWidht));
+            Console.WriteLine(new string('-',tableWidht + rows.Count.ToString().Length));
         }
 
-        private void PrintRow(params string[] columns)
+        private void PrintHead(int rowCount,params string[] columns)
         {
             int width = (tableWidht - columns.Length) / columns.Length;
-            string row = "|";
+            string row = "| " + new string(' ', rowCount) + " |";
             
             foreach (string column in columns)
             {
@@ -226,6 +226,22 @@ namespace SortingSystem
             
             Console.WriteLine(row);
         }
+        
+        private void PrintRow(int rowCount,int rowNum, params string[] columns)
+        {
+            int width = (tableWidht - columns.Length) / columns.Length;
+            string row = "|" + AlignCentre(rowNum.ToString(), rowCount+2) + "|";
+            
+            
+            foreach (string column in columns)
+            {
+                row += AlignCentre(column, width) + "|";
+            }
+            
+            Console.WriteLine(row);
+        }
+        
+
 
         private string AlignCentre(string text, int widht)
         {

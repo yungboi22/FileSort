@@ -1,0 +1,89 @@
+﻿List of all Commands:
+- Create 
+- Edit
+- Delete
+- Exit
+- Help
+- Search
+- Open
+
+Create
+------------------------------------------------------------------------------------------------------------------
+Description:
+    - Used to create a new sorting-configuration
+
+Arguments:
+    - none
+    
+Example:
+    [Terminal] Create
+------------------------------------------------------------------------------------------------------------------
+
+Edit
+------------------------------------------------------------------------------------------------------------------
+Description:
+    - Used to edit an existing sorting-configuration
+    
+Arguments:
+    - none
+    
+Example:
+    [Terminal] Edit
+------------------------------------------------------------------------------------------------------------------
+
+Delete
+------------------------------------------------------------------------------------------------------------------
+Description:
+    - Used to delete an existing sorting-configuration
+    
+Arguments:
+    - none
+    
+Example:
+    [Terminal] Delete
+------------------------------------------------------------------------------------------------------------------
+
+Search
+------------------------------------------------------------------------------------------------------------------
+Description:
+    - Used to search in the sorting-history (Collection of already sorted items)
+    
+Arguments:
+    - first argument: search-value
+    - filter:
+        + category: < Name of category (custom) >		                     exp: -filter category audio
+        + size:	    < '>' or '<' or '=' > < size in bytes >				     exp: -filter size >1000000
+        + date:     < '>' or '<' or '=' > < date in format : "20.05.2003" >	 exp: -filter date >25.06.2023
+    - sort:
+        +Alphabet   				
+        +Category (Alphabetic)  	
+        +Date				
+        +Size 
+        (! before option to sort backwards)                                  exp: -sort !alphabet
+    
+Example:
+    [Terminal] search a.txt -filter category Audio -sort !alphabet
+    [Terminal] search a.txt 
+------------------------------------------------------------------------------------------------------------------
+
+Open
+------------------------------------------------------------------------------------------------------------------
+Description:
+    - Used to open a result from the last search-result
+    
+Arguments:
+    - first argument: any row-number from the last search-result
+    - second argument: e (open in explorer)
+    
+Example:
+
+-----------------------------------------------------------------------------------------------------------------
+|   |      Name       |    Category     |   OriginPath    |   CurrentPath   |    fileSize     |   DateOfSort    | 
+-----------------------------------------------------------------------------------------------------------------
+| 0 |      z.txt      |      Audio      |    D:\z.txt     |    D:\z.txt     |        0        |01.01.0001 00:...|
+| 1 |      z.txt      |    Textfile     |    D:\z.txt     |    D:\z.txt     |        0        |01.01.0001 00:...|
+----------------------------------------------------------------------------------------------------------------- 
+
+[Terminal] Open 0 
+[Terminal] Open 1 -e 
+------------------------------------------------------------------------------------------------------------------

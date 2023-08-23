@@ -8,18 +8,20 @@ namespace SortingSystem;
 public static class SortingHistory
 {
     public static List<SortedItem> SortedItems { get; set; }
-    public static List<SortedItem> CurrentSearchResult { get; set; }
+    public static List<SortedItem> LastSearchResult { get; set; }
     
-    public static List<SortedItem> LoadHistory()
+    public static void LoadHistory()
     {
         if (File.Exists("sortinghistory.json"))
         {
             string obj = File.ReadAllText("sortinghistory.json");
             var options = new JsonSerializerOptions { WriteIndented = true }; 
-            return JsonSerializer.Deserialize<List<SortedItem>>(obj,options)!; 
+            SortedItems = JsonSerializer.Deserialize<List<SortedItem>>(obj,options)!; 
         }
-        
-        return new List<SortedItem>();
+        else
+        {
+            SortedItems = new List<SortedItem>();    
+        }
     }
     
     public static void SaveHistory(List<SortedItem> sortedItemsToSave)
@@ -38,10 +40,13 @@ public static class SortingHistory
 
     public static List<SortedItem> SearchListBy(List<SortedItem> itemsToSearch, string searchValue)
     {
-        return itemsToSearch.FindAll(x => x.Name.ToLower().Contains(searchValue.Trim()));
+        itemsToSearch = itemsToSearch.FindAll(x => x.Name.ToLower().Contains(searchValue.Trim()));
+        LastSearchResult = itemsToSearch;
+
+        return itemsToSearch;
     }
     
-    public static List<SortedItem> SortListBy(List<SortedItem> itemsToSort, SortBy sortBy,bool reverse)
+    public static List<SortedItem> Sort(List<SortedItem> itemsToSort, SortBy sortBy,char reverseSymbol)
     {
         switch (sortBy)
         {
@@ -59,14 +64,18 @@ public static class SortingHistory
                 break;
         }
         
-        if (reverse)
+        if (reverseSymbol == '!')
             itemsToSort.Reverse();
         
         return itemsToSort;
     }
 
-    public static List<SortedItem> FilterListBy(List<SortedItem> itemsToFilter, FilterBy filterBy, int neededCompValue, string filterValue)
+    public static List<SortedItem> Filter(List<SortedItem> itemsToFilter, FilterBy filterBy, string filterValue)
     {
+        int neededCompValue = -1;
+        
+        //function umbauen
+        
         switch (filterBy)
         {
             case FilterBy.Category:
@@ -87,21 +96,25 @@ public static class SortingHistory
     public static void ToTable(List<SortedItem> aSortedItems)
     {
         List<string> head = new List<string>();
-        typeof(SortedItem).GetFields().ToList().ForEach(x => head.Add(x.Name));
+        typeof(SortedItem).GetProperties().ToList().ForEach(x => head.Add(x.Name));
 
-        ConsoleTable table = new ConsoleTable(head.ToArray(), 115);
+
+        ConsoleTable table = new ConsoleTable(head.ToArray(), 112);
+        
         
         foreach (SortedItem sortedItem in aSortedItems)
         {
             List<string> row = new List<string>();
             
-            foreach (FieldInfo fieldInfo in typeof(SortedItem).GetFields())
+            foreach (PropertyInfo propertyInfo in typeof(SortedItem).GetProperties())
             {
-                row.Add(fieldInfo.GetValue(sortedItem).ToString());
+                row.Add(propertyInfo.GetValue(sortedItem).ToString());
             }
             
             table.AddRow(row);
         }
+       
+        
         
         table.Print();
     }
@@ -114,8 +127,8 @@ public class SortedItem
     public string Category { get; set; }
     public string OriginPath { get; set; }
     public string CurrentPath { get; set; }
-    public long fileSize;
-    public DateTime DateOfSort;
+    public long fileSize { get; set; }
+    public DateTime DateOfSort { get; set; }
 
     public SortedItem(string aOriginPath, string aDestinyPath,string aCategory)
     {
@@ -123,7 +136,12 @@ public class SortedItem
         Category = aCategory;
         OriginPath = aOriginPath;
         CurrentPath = aDestinyPath;
-        fileSize = new FileInfo(CurrentPath).Length;
+
+        if (File.GetAttributes(CurrentPath).HasFlag(FileAttributes.Directory))
+            fileSize = -1;
+        else
+            fileSize = new FileInfo(CurrentPath).Length;
+        
         DateOfSort = DateTime.Now;
     }
 
@@ -149,3 +167,4 @@ public enum FilterBy
     Date,
     Size
 }
+
