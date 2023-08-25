@@ -17,7 +17,7 @@ namespace Configurator
             {
                 AppDomain.CurrentDomain.ProcessExit += CurrentDomain_ProcessExit;
                 Logger.Init("Logs", System.Reflection.Assembly.GetExecutingAssembly().GetName().Name);
-                SortingHistory.SortedItems = SortingHistory.LoadHistory();
+                SortingHistory.LoadHistory();
                 
                 if (!Utils.IsAdministrator())
                     throw new Exception("Please run the configurator as administrator");
@@ -42,7 +42,7 @@ namespace Configurator
         public static void OpenConfigurator()
         {
             Console.Write(File.ReadAllText("Messages/WelcomeMessage.txt"));
-            FileSort.Stop();
+            ServiceHandling.Stop();
             Exit = false;
             
             while(!Exit)
@@ -53,14 +53,14 @@ namespace Configurator
             }
             
             Sorter.saveSorters(Sorter.Sorters,"Sorters.json");
-            FileSort.Start();
+            ServiceHandling.Start();
         }
 
         public static void CurrentDomain_ProcessExit(object sender, EventArgs e)
         {
             if(Sorter.Sorters != null)
                 Sorter.saveSorters(Sorter.Sorters,"Sorters.json");
-            FileSort.Start();
+            ServiceHandling.Start();
         }
         
  

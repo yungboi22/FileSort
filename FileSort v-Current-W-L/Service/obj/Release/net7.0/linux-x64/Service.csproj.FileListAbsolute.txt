@@ -97,3 +97,4 @@ C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\obj\Rele
 C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\obj\Release\net7.0\linux-x64\Service.pdb
 C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\obj\Release\net7.0\linux-x64\Service.genruntimeconfig.cache
 C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\obj\Release\net7.0\linux-x64\ref\Service.dll
+C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Release\net7.0\linux-x64\Microsoft.Toolkit.Uwp.Notifications.dll

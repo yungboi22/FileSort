@@ -51,3 +51,4 @@ C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\obj
 C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\obj\Release\net7.0\win-x64\Configurator.pdb
 C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\obj\Release\net7.0\win-x64\Configurator.genruntimeconfig.cache
 C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\obj\Release\net7.0\win-x64\ref\Configurator.dll
+C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\bin\Release\net7.0\win-x64\Messages\help.txt

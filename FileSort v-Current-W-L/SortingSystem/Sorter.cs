@@ -104,9 +104,19 @@ namespace SortingSystem
 
         public static List<Sorter> loadSorters(string Pth)
         {
+            List<Sorter> validSorters = new List<Sorter>();
             string obj = File.ReadAllText(Pth);
             var options = new JsonSerializerOptions { WriteIndented = true }; 
-            return JsonSerializer.Deserialize<List<Sorter>>(obj,options)!;
+            
+            foreach (Sorter sorter in JsonSerializer.Deserialize<List<Sorter>>(obj,options)!)
+            {
+                if (Directory.Exists(sorter.ScanDir) && Directory.Exists(sorter.EndDir))
+                    validSorters.Add(sorter);
+            }
+            
+            saveSorters(validSorters,"Sorters.json");
+
+            return validSorters;
         }
         
         public static void saveSorters(List<Sorter> aSorters,string Pth)
@@ -157,6 +167,8 @@ namespace SortingSystem
 
             return false;
         }
+        
+        
         
     }
 }

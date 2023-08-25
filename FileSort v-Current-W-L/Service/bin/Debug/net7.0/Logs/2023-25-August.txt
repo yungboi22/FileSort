@@ -1,0 +1,76 @@
+[25.08.2023 16:36:38 - Service] Starting service at "C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0"...
+[25.08.2023 16:36:38 - Service] Could not find a part of the path 'C:\a'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserDirectories(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetDirectories(String path, String searchPattern, EnumerationOptions enumerationOptions)
+   at SortingSystem.IOMethod.NewItemLoc(String ScanPth, String[] StaticDirs) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\IOMethod.cs:line 51
+   at SortingSystem.Sorter.OnTimed() in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 86
+   at SortingSystem.Sorter.TickAll(List`1 sorters) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 140
+   at Service.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Worker.cs:line 36
+[25.08.2023 16:36:38 - Service] Could not find a part of the path 'C:\a'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserDirectories(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetDirectories(String path, String searchPattern, EnumerationOptions enumerationOptions)
+   at SortingSystem.IOMethod.NewItemLoc(String ScanPth, String[] StaticDirs) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\IOMethod.cs:line 51
+   at SortingSystem.Sorter.OnTimed() in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 86
+   at SortingSystem.Sorter.TickAll(List`1 sorters) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 140
+   at Service.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Worker.cs:line 36
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Service.Program.Main(String[] args) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Program.cs:line 25
+[25.08.2023 16:36:49 - Service] Starting service at "C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0"...
+[25.08.2023 16:36:49 - Service] Could not find a part of the path 'C:\a'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserDirectories(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetDirectories(String path, String searchPattern, EnumerationOptions enumerationOptions)
+   at SortingSystem.IOMethod.NewItemLoc(String ScanPth, String[] StaticDirs) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\IOMethod.cs:line 51
+   at SortingSystem.Sorter.OnTimed() in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 86
+   at SortingSystem.Sorter.TickAll(List`1 sorters) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 140
+   at Service.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Worker.cs:line 36
+[25.08.2023 16:36:49 - Service] Could not find a part of the path 'C:\a'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserDirectories(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.GetDirectories(String path, String searchPattern, EnumerationOptions enumerationOptions)
+   at SortingSystem.IOMethod.NewItemLoc(String ScanPth, String[] StaticDirs) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\IOMethod.cs:line 51
+   at SortingSystem.Sorter.OnTimed() in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 86
+   at SortingSystem.Sorter.TickAll(List`1 sorters) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\SortingSystem\Sorter.cs:line 140
+   at Service.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Worker.cs:line 36
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Service.Program.Main(String[] args) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Program.cs:line 25
+[25.08.2023 16:41:37 - Service] Starting service at "C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0"...
+[25.08.2023 16:41:41 - Service] Shutting down service... 
+
+[25.08.2023 16:41:41 - Service] A task was canceled.
+   at Service.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Worker.cs:line 37
+[25.08.2023 16:42:05 - Service] Starting service at "C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0"...
+[25.08.2023 16:42:08 - Service] Shutting down service... 
+
+[25.08.2023 16:42:08 - Service] A task was canceled.
+   at Service.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Worker.cs:line 37
+[25.08.2023 16:43:09 - Service] Starting service at "C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0"...
+[25.08.2023 16:43:11 - Service] Shutting down service... 
+
+[25.08.2023 16:43:11 - Service] A task was canceled.
+   at Service.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Worker.cs:line 37
+[25.08.2023 16:43:16 - Service] Starting service at "C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\bin\Debug\net7.0"...
+[25.08.2023 16:43:18 - Service] Shutting down service... 
+
+[25.08.2023 16:43:18 - Service] A task was canceled.
+   at Service.Worker.ExecuteAsync(CancellationToken stoppingToken) in C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Service\Worker.cs:line 37

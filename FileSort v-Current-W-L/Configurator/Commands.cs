@@ -68,17 +68,21 @@ public static class Commands
         SortingHistory.ToTable(itemsToSearch);
     }
 
+    public static void Unused(List<string> commandArgs)
+    {
+        if(!int.TryParse(commandArgs[0], out int sel) || commandArgs.Count > 2)
+            throw new Exception("Wrong argument, please enter months");
+
+        SortingHistory.ToTable(SortingHistory.OlderThanXMonths(sel));
+    }
+
     public static void Open(List<string> commandArgs)
     {
         if(!int.TryParse(commandArgs[0], out int sel) || commandArgs.Count > 2)
             throw new Exception("Wrong command argument or arguments");
         
-        if(commandArgs.Count > 1 && commandArgs[1].ToLower() == "e")
-            Process.Start(Environment.GetEnvironmentVariable("WINDIR") +
-                          @"\explorer.exe",Path.GetDirectoryName(SortingHistory.LastSearchResult[sel].CurrentPath));
-        else
-            Process.Start( Environment.GetEnvironmentVariable("WINDIR") +
-                           @"\explorer.exe", SortingHistory.LastSearchResult[sel].CurrentPath);
+        Process.Start(Environment.GetEnvironmentVariable("WINDIR") +
+                      @"\explorer.exe",Path.GetDirectoryName(SortingHistory.LastSearchResult[sel].CurrentPath));
     }
     
 
@@ -161,6 +165,8 @@ public static class Commands
             
         Sorter.Sorters.RemoveAt(sel);
     }
+    
+ 
 
     public static void Help()
     {

@@ -9,7 +9,7 @@ using SortingSystem;
 
 namespace Configurator;
 
-public static class FileSort
+public static class ServiceHandling
 {
     public static void Start()
     {

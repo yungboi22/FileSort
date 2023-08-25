@@ -1,0 +1,17 @@
+!search <FileName> 
+!openPath <Path/number> exp: D:\a.txt -> opens D:\
+!openFile <Path/number>   D:\a.txt ->
+!delete <Path/number> -> weggelasse
+!q to exit 
+!<CommandName> -h for help
+
+-> input: 
+
+-> result of search. 
+
+
+1
+2
+3
+4
+5

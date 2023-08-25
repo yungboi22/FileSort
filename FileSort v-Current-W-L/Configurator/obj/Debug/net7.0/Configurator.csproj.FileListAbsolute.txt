@@ -55,3 +55,4 @@ C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\obj
 C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\bin\Debug\net7.0\Messages\createFont.txt
 C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\bin\Debug\net7.0\Messages\deleteFont.txt
 C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\bin\Debug\net7.0\Messages\editFont.txt
+C:\Users\64dre\Documents\GitHub\FileSort\FileSort v-Current-W-L\Configurator\bin\Debug\net7.0\Messages\help.txt

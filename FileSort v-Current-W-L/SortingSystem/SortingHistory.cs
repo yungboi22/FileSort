@@ -91,6 +91,22 @@ public static class SortingHistory
         }
     }
 
+    public static List<SortedItem> OlderThanXMonths(int monthCount)
+    {
+        List<SortedItem> unusedFiles = new List<SortedItem>();
+        
+        foreach (SortedItem sortedItem in SortedItems)
+        {
+            FileInfo fi = new FileInfo(sortedItem.CurrentPath);
+
+            if (fi.LastAccessTime < DateTime.Now.AddMonths(-monthCount))
+                unusedFiles.Add(sortedItem);
+        }
+        
+        LastSearchResult = unusedFiles;
+        return unusedFiles;
+    }
+
 
 
     public static void ToTable(List<SortedItem> aSortedItems)

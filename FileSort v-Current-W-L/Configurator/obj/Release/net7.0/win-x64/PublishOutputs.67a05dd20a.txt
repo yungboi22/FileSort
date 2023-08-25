@@ -5,6 +5,7 @@ C:\Users\64dre\Documents\GitHub\FileSort\Release\Windows x64\SortingSystem\Messa
 C:\Users\64dre\Documents\GitHub\FileSort\Release\Windows x64\SortingSystem\Messages\deleteFont.txt
 C:\Users\64dre\Documents\GitHub\FileSort\Release\Windows x64\SortingSystem\Messages\editFont.txt
 C:\Users\64dre\Documents\GitHub\FileSort\Release\Windows x64\SortingSystem\Messages\editOptions.txt
+C:\Users\64dre\Documents\GitHub\FileSort\Release\Windows x64\SortingSystem\Messages\help.txt
 C:\Users\64dre\Documents\GitHub\FileSort\Release\Windows x64\SortingSystem\Messages\WelcomeMessage.txt
 C:\Users\64dre\Documents\GitHub\FileSort\Release\Windows x64\SortingSystem\SortingSystem.pdb
 C:\Users\64dre\Documents\GitHub\FileSort\Release\Windows x64\SortingSystem\Configurator.exe

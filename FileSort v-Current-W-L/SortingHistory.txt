@@ -1,0 +1,50 @@
+Filter:
+- Category
+- DateOfSort
+
+später evtl (kein bock)
+- OriginPath
+- DestinationPath (auch teile davon. Zb OriginPth= "C:\All\All2\All3" dann filter nach "C:\All")
+
+Search:
+- Name 
+
+SortBy:
+- Alphabet   			Up/Down		done	
+- Category (Alphabetic)  	Up/Down		done
+- Date				Up/Down		done
+- Size       			Up/Down		done
+
+
+Search(string Input, Filter 
+
+
+1:	abc.mp3			Audio		"E:\All\"	"E:\All\Müll\Audio\2023\Juni\"	
+
+
+Command: 	search <Name> 
+Attributes:	-f <category/date/size> <Value> 
+		-sort <!/ ><alphabet/category/date/size>
+
+>search test.txt -f category Audio -sort !alphabet
+
+
+>search test.txt -f size >1000 -sort !alphabet
+
+search a.txt -filter category Audio -sort alphabet !
+
+
+--- filter options ---
+category: <Name of category (custom)>				-f category audio
+size:	 <">"/"<"/"="> <size in bytes>				-f size >1000000
+date:    <">"/"<"/"="> <date in format : "20.05.2003" >		-f date >25.06.2023
+
+test.txt
+f size >1000
+sort alphabet !
+
+
+valid commands (22.08):
+search test.txt -filter category Audio -sort !alphabet
+
+search a.txt -filter category Audio -sort !alphabet
